@@ -2,5 +2,61 @@
   "version": 1,
   "repository": "SableClient/themes",
   "ref": "main",
-  "themes": []
+  "themes": [
+    {
+      "basename": "accord",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/accord.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/accord.sable.css"
+    },
+    {
+      "basename": "black",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/black.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/black.sable.css"
+    },
+    {
+      "basename": "butter",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/butter.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/butter.sable.css"
+    },
+    {
+      "basename": "cinny-dark",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-dark.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-dark.sable.css"
+    },
+    {
+      "basename": "cinny-light",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-light.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-light.sable.css"
+    },
+    {
+      "basename": "cinny-silver",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-silver.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-silver.sable.css"
+    },
+    {
+      "basename": "dark",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/dark.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/dark.sable.css"
+    },
+    {
+      "basename": "gruvdark",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/gruvdark.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/gruvdark.sable.css"
+    },
+    {
+      "basename": "light",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/light.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/light.sable.css"
+    },
+    {
+      "basename": "rose-pine",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine.sable.css"
+    },
+    {
+      "basename": "silver",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/silver.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/silver.sable.css"
+    }
+  ]
 }
