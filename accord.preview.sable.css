@@ -1,4 +1,4 @@
-/*
+﻿/*
 @sable-theme
 id: accord
 name: Accord
@@ -6,7 +6,6 @@ author: kr0nst
 kind: dark
 contrast: low
 tags: dark
-legacyIds: accord-theme
 fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/accord.sable.css
 */
 
@@ -16,12 +15,6 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/accord.s
   --sable-surface-container: #323339;
   --sable-surface-container-line: #484a50;
   --sable-surface-on-container: #fff;
-  --sable-surface-var-container: #393a41;
-  --sable-surface-var-on-container: #f2f2f2;
   --sable-primary-main: #5865f2;
   --sable-primary-on-main: #fff;
-  --sable-primary-container: #413c65;
-  --sable-primary-on-container: #e3e1f7;
-  --sable-focus-ring: rgba(255, 255, 255, 0.5);
-  --sable-shadow: rgba(0, 0, 0, 1);
 }

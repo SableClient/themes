@@ -1,4 +1,4 @@
-/*
+﻿/*
 @sable-theme
 id: black
 name: Black
@@ -6,7 +6,6 @@ author: Elec3137
 kind: dark
 contrast: high
 tags: dark, oled
-legacyIds: black-theme
 fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/black.sable.css
 */
 
@@ -16,12 +15,6 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/black.sa
   --sable-surface-container: #000000;
   --sable-surface-container-line: #702070;
   --sable-surface-on-container: #ffffff;
-  --sable-surface-var-container: #050505;
-  --sable-surface-var-on-container: #ffffff;
   --sable-primary-main: #bdb6ec;
   --sable-primary-on-main: #1b1a21;
-  --sable-primary-container: #2d235c;
-  --sable-primary-on-container: #e3e1f7;
-  --sable-focus-ring: rgba(189, 182, 236, 0.5);
-  --sable-shadow: rgba(0, 0, 0, 0.4);
 }

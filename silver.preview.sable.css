@@ -1,4 +1,4 @@
-/*
+﻿/*
 @sable-theme
 id: silver
 name: Silver
@@ -6,7 +6,6 @@ author: Sable
 kind: light
 contrast: low
 tags: light, bundled
-legacyIds: silver-theme
 fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/silver.sable.css
 */
 
@@ -16,12 +15,6 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/silver.s
   --sable-surface-container: #ffffff;
   --sable-surface-container-line: #e3e2eb;
   --sable-surface-on-container: #2d235c;
-  --sable-surface-var-container: #f0eff4;
-  --sable-surface-var-on-container: #514861;
   --sable-primary-main: #6e56cf;
   --sable-primary-on-main: #ffffff;
-  --sable-primary-container: #ded9e6;
-  --sable-primary-on-container: #2d235c;
-  --sable-focus-ring: rgba(110, 86, 207, 0.4);
-  --sable-shadow: rgba(45, 35, 92, 0.1);
 }

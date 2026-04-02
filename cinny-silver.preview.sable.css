@@ -1,4 +1,4 @@
-/*
+﻿/*
 @sable-theme
 id: cinny-silver
 name: Cinny Silver
@@ -6,7 +6,6 @@ author: Cinny
 kind: light
 contrast: low
 tags: light, cinny
-legacyIds: cinny-silver-theme
 fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/cinny-silver.sable.css
 */
 
@@ -16,12 +15,6 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/cinny-si
   --sable-surface-container: #eaeaea;
   --sable-surface-container-line: #c7c7c7;
   --sable-surface-on-container: #000000;
-  --sable-surface-var-container: #dedede;
-  --sable-surface-var-on-container: #000000;
   --sable-primary-main: #1245a8;
   --sable-primary-on-main: #ffffff;
-  --sable-primary-container: #c4d0e9;
-  --sable-primary-on-container: #0d3076;
-  --sable-focus-ring: rgba(0 0 0 / 50%);
-  --sable-shadow: rgba(0 0 0 / 20%);
 }

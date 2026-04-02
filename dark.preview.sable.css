@@ -1,4 +1,4 @@
-/*
+﻿/*
 @sable-theme
 id: dark
 name: Dark
@@ -6,22 +6,16 @@ author: Sable
 kind: dark
 contrast: low
 tags: default, bundled
-legacyIds: dark-theme
 fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/dark.sable.css
 */
 
+/* Preview strip: only these seven tokens are applied by Sable (see README). */
 .sable-theme-preview {
   --sable-bg-container: #1b1a21;
   --sable-bg-on-container: #eae8f0;
   --sable-surface-container: #24232c;
   --sable-surface-container-line: #403f4c;
   --sable-surface-on-container: #eae8f0;
-  --sable-surface-var-container: #121116;
-  --sable-surface-var-on-container: #bdb6ec;
   --sable-primary-main: #bdb6ec;
   --sable-primary-on-main: #1b1a21;
-  --sable-primary-container: #2d235c;
-  --sable-primary-on-container: #e3e1f7;
-  --sable-focus-ring: rgba(189, 182, 236, 0.5);
-  --sable-shadow: rgba(0, 0, 0, 0.4);
 }
