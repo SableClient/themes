@@ -54,6 +54,16 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine.sable.css"
     },
     {
+      "basename": "rose-pine-dawn",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine-dawn.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine-dawn.sable.css"
+    },
+    {
+      "basename": "rose-pine-moon",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine-moon.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine-moon.sable.css"
+    },
+    {
       "basename": "silver",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/silver.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/silver.sable.css"
