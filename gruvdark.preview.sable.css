@@ -1,0 +1,27 @@
+/*
+@sable-theme
+id: gruvdark
+name: GruvDark
+author: dollth-ing
+kind: dark
+contrast: high
+tags: dark, retro
+legacyIds: gruvdark-theme
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/gruvdark.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #282828;
+  --sable-bg-on-container: #fbf1c7;
+  --sable-surface-container: #3c3836;
+  --sable-surface-container-line: #665c54;
+  --sable-surface-on-container: #fbf1c7;
+  --sable-surface-var-container: #282828;
+  --sable-surface-var-on-container: #ebdbb2;
+  --sable-primary-main: #fbf1c7;
+  --sable-primary-on-main: #1d2021;
+  --sable-primary-container: #fe8019;
+  --sable-primary-on-container: #fbf1c7;
+  --sable-focus-ring: rgba(227, 186, 145, 0.5);
+  --sable-shadow: rgba(0, 0, 0, 0.6);
+}

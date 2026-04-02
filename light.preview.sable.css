@@ -1,0 +1,27 @@
+/*
+@sable-theme
+id: light
+name: Light
+author: Sable
+kind: light
+contrast: low
+tags: default, bundled
+legacyIds: light-theme
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/light.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #ffffff;
+  --sable-bg-on-container: #18181b;
+  --sable-surface-container: #f4f4f5;
+  --sable-surface-container-line: #d4d4d8;
+  --sable-surface-on-container: #18181b;
+  --sable-surface-var-container: #e4e4e7;
+  --sable-surface-var-on-container: #27272a;
+  --sable-primary-main: #6e56cf;
+  --sable-primary-on-main: #ffffff;
+  --sable-primary-container: #ded9e6;
+  --sable-primary-on-container: #2d235c;
+  --sable-focus-ring: rgba(110, 86, 207, 0.4);
+  --sable-shadow: rgba(0, 0, 0, 0.1);
+}

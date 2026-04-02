@@ -1,0 +1,27 @@
+/*
+@sable-theme
+id: rose-pine
+name: Rose Pine
+author: wrigglebug
+kind: dark
+contrast: low
+tags: dark, purple
+legacyIds: rose-pine-theme
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/rose-pine.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #191724;
+  --sable-bg-on-container: #e0def4;
+  --sable-surface-container: #1f1d2e;
+  --sable-surface-container-line: #393552;
+  --sable-surface-on-container: #e0def4;
+  --sable-surface-var-container: #131020;
+  --sable-surface-var-on-container: #c4a7e7;
+  --sable-primary-main: #c4a7e7;
+  --sable-primary-on-main: #191724;
+  --sable-primary-container: #2a273f;
+  --sable-primary-on-container: #e0def4;
+  --sable-focus-ring: rgba(196, 167, 231, 0.5);
+  --sable-shadow: rgba(0, 0, 0, 0.5);
+}

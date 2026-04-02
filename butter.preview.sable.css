@@ -1,0 +1,27 @@
+/*
+@sable-theme
+id: butter
+name: Butter
+author: Sable
+kind: dark
+contrast: low
+tags: dark, warm
+legacyIds: butter-theme
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/butter.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #1a1916;
+  --sable-bg-on-container: #fffbde;
+  --sable-surface-container: #26241f;
+  --sable-surface-container-line: #4d483d;
+  --sable-surface-on-container: #fffbde;
+  --sable-surface-var-container: #12110f;
+  --sable-surface-var-on-container: #e5e2c8;
+  --sable-primary-main: #e3ba91;
+  --sable-primary-on-main: #1a1916;
+  --sable-primary-container: #453324;
+  --sable-primary-on-container: #fffbde;
+  --sable-focus-ring: rgba(227, 186, 145, 0.5);
+  --sable-shadow: rgba(0, 0, 0, 0.6);
+}

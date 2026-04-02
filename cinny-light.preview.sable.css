@@ -1,0 +1,27 @@
+/*
+@sable-theme
+id: cinny-light
+name: Cinny Light
+author: Cinny
+kind: light
+contrast: low
+tags: light, cinny
+legacyIds: cinny-light-theme
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/cinny-light.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #f2f2f2;
+  --sable-bg-on-container: #000000;
+  --sable-surface-container: #ffffff;
+  --sable-surface-container-line: #d9d9d9;
+  --sable-surface-on-container: #000000;
+  --sable-surface-var-container: #f2f2f2;
+  --sable-surface-var-on-container: #000000;
+  --sable-primary-main: #1858d5;
+  --sable-primary-on-main: #ffffff;
+  --sable-primary-container: #e8eefb;
+  --sable-primary-on-container: #113e95;
+  --sable-focus-ring: rgba(0 0 0 / 50%);
+  --sable-shadow: rgba(0 0 0 / 20%);
+}
