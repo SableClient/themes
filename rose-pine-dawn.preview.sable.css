@@ -1,0 +1,20 @@
+/*
+@sable-theme
+id: rose-pine-dawn
+name: Rosé Pine Dawn
+author: Sable
+kind: light
+contrast: low
+tags: light, rose-pine, dawn
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/rose-pine-dawn.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #faf4ed;
+  --sable-bg-on-container: #575279;
+  --sable-surface-container: #fffaf3;
+  --sable-surface-container-line: #cecacd;
+  --sable-surface-on-container: #575279;
+  --sable-primary-main: #907aa9;
+  --sable-primary-on-main: #faf4ed;
+}
