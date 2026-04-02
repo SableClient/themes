@@ -88,4 +88,15 @@ body.sable-remote-theme {
   --sable-focus-ring: rgba(227, 186, 145, 0.5);
   --sable-shadow: rgba(0, 0, 0, 0.6);
   --sable-overlay: rgba(15, 14, 12, 0.9);
+
+  --tc-link: #83a598;
+
+  --mx-uc-1: #d3869b;
+  --mx-uc-2: #fb4934;
+  --mx-uc-3: #458588;
+  --mx-uc-4: #8ec07c;
+  --mx-uc-5: #689d6a;
+  --mx-uc-6: #b16286;
+  --mx-uc-7: #fabd2f;
+  --mx-uc-8: #cc241d;
 }
