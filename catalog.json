@@ -5,68 +5,74 @@
   "themes": [
     {
       "basename": "accord",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/accord.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/accord.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/accord.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/accord.sable.css"
     },
     {
       "basename": "black",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/black.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/black.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/black.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/black.sable.css"
     },
     {
       "basename": "butter",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/butter.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/butter.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/butter.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/butter.sable.css"
     },
     {
       "basename": "cinny-dark",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-dark.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-dark.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-dark.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-dark.sable.css"
     },
     {
       "basename": "cinny-light",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-light.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-light.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-light.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-light.sable.css"
     },
     {
       "basename": "cinny-silver",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-silver.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/cinny-silver.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-silver.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-silver.sable.css"
     },
     {
       "basename": "dark",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/dark.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/dark.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/dark.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/dark.sable.css"
     },
     {
       "basename": "gruvdark",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/gruvdark.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/gruvdark.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/gruvdark.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/gruvdark.sable.css"
     },
     {
       "basename": "light",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/light.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/light.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/light.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/light.sable.css"
     },
     {
       "basename": "rose-pine",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine.sable.css"
     },
     {
       "basename": "rose-pine-dawn",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine-dawn.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine-dawn.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine-dawn.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine-dawn.sable.css"
     },
     {
       "basename": "rose-pine-moon",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine-moon.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/rose-pine-moon.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine-moon.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine-moon.sable.css"
     },
     {
       "basename": "silver",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/silver.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/silver.sable.css"
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/silver.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/silver.sable.css"
+    }
+  ],
+  "tweaks": [
+    {
+      "basename": "rounded",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/rounded.sable.css"
     }
   ]
 }
