@@ -6,7 +6,7 @@ author: Elec3137
 kind: dark
 contrast: high
 tags: dark, oled
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/black.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/black.sable.css
 */
 
 .sable-theme-preview {
@@ -18,3 +18,4 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/black.sa
   --sable-primary-main: #bdb6ec;
   --sable-primary-on-main: #1b1a21;
 }
+

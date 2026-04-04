@@ -6,7 +6,7 @@ author: Cinny
 kind: dark
 contrast: low
 tags: dark, cinny
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/cinny-dark.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-dark.sable.css
 */
 
 .sable-theme-preview {
@@ -18,3 +18,4 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/cinny-da
   --sable-primary-main: #bdb6ec;
   --sable-primary-on-main: #2c2843;
 }
+

@@ -6,7 +6,7 @@ author: Sable
 kind: dark
 contrast: low
 tags: dark, warm
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/butter.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/butter.sable.css
 */
 
 .sable-theme-preview {
@@ -18,3 +18,4 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/butter.s
   --sable-primary-main: #e3ba91;
   --sable-primary-on-main: #1a1916;
 }
+

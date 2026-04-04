@@ -1,0 +1,21 @@
+﻿/*
+@sable-theme
+id: rose-pine-moon
+name: RosÃ© Pine Moon
+author: Sable
+kind: dark
+contrast: low
+tags: dark, rose-pine, moon
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine-moon.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #232136;
+  --sable-bg-on-container: #e0def4;
+  --sable-surface-container: #2a273f;
+  --sable-surface-container-line: #56526e;
+  --sable-surface-on-container: #e0def4;
+  --sable-primary-main: #c4a7e7;
+  --sable-primary-on-main: #232136;
+}
+

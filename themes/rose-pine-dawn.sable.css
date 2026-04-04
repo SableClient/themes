@@ -1,0 +1,91 @@
+﻿/*
+@sable-theme
+id: rose-pine-dawn
+name: RosÃ© Pine Dawn
+author: Sable
+kind: light
+contrast: low
+tags: light, rose-pine, dawn
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine-dawn.sable.css
+*/
+
+body.sable-remote-theme {
+  /* Background - Base / Surface / Overlay / Highlight Med */
+  --sable-bg-container: #faf4ed;
+  --sable-bg-container-hover: #fffaf3;
+  --sable-bg-container-active: #f2e9e1;
+  --sable-bg-container-line: #dfdad9;
+  --sable-bg-on-container: #575279;
+  /* Surface */
+  --sable-surface-container: #fffaf3;
+  --sable-surface-container-hover: #f4ede8;
+  --sable-surface-container-active: #f2e9e1;
+  --sable-surface-container-line: #cecacd;
+  --sable-surface-on-container: #575279;
+  /* Surface Variant - Highlight Low */
+  --sable-surface-var-container: #f4ede8;
+  --sable-surface-var-container-hover: #faf4ed;
+  --sable-surface-var-container-active: #fffaf3;
+  --sable-surface-var-container-line: #cecacd;
+  --sable-surface-var-on-container: #907aa9;
+  /* Primary - Iris */
+  --sable-primary-main: #907aa9;
+  --sable-primary-main-hover: #83679b;
+  --sable-primary-main-active: #76548d;
+  --sable-primary-main-line: #69417f;
+  --sable-primary-on-main: #faf4ed;
+  --sable-primary-container: #eae4ef;
+  --sable-primary-container-hover: #e0d8e8;
+  --sable-primary-container-active: #d6cce1;
+  --sable-primary-container-line: #ccc0da;
+  --sable-primary-on-container: #4a3d5c;
+  /* Secondary - Subtle */
+  --sable-sec-main: #797593;
+  --sable-sec-main-hover: #6d6a86;
+  --sable-sec-main-active: #615f79;
+  --sable-sec-main-line: #55546c;
+  --sable-sec-on-main: #faf4ed;
+  --sable-sec-container: #f2e9e1;
+  --sable-sec-container-hover: #eae0d8;
+  --sable-sec-container-active: #dfdad9;
+  --sable-sec-container-line: #cecacd;
+  --sable-sec-on-container: #575279;
+  /* Success - Foam */
+  --sable-success-main: #56949f;
+  --sable-success-main-hover: #4d878f;
+  --sable-success-main-active: #447a80;
+  --sable-success-main-line: #3b6d71;
+  --sable-success-on-main: #faf4ed;
+  --sable-success-container: #c5d8dc;
+  --sable-success-container-hover: #bacfd4;
+  --sable-success-container-active: #afc6cc;
+  --sable-success-container-line: #a4bdc4;
+  --sable-success-on-container: #1f4a52;
+  /* Warning - Gold */
+  --sable-warn-main: #ea9d34;
+  --sable-warn-main-hover: #e89428;
+  --sable-warn-main-active: #e68b1c;
+  --sable-warn-main-line: #e48210;
+  --sable-warn-on-main: #faf4ed;
+  --sable-warn-container: #f0dcc0;
+  --sable-warn-container-hover: #edd3b3;
+  --sable-warn-container-active: #eacaa6;
+  --sable-warn-container-line: #e7c199;
+  --sable-warn-on-container: #5c3f12;
+  /* Critical - Love */
+  --sable-crit-main: #b4637a;
+  --sable-crit-main-hover: #a8576f;
+  --sable-crit-main-active: #9d4b64;
+  --sable-crit-main-line: #923f59;
+  --sable-crit-on-main: #faf4ed;
+  --sable-crit-container: #e8ccd4;
+  --sable-crit-container-hover: #e3c0ca;
+  --sable-crit-container-active: #deb4c0;
+  --sable-crit-container-line: #d9a8b6;
+  --sable-crit-on-container: #6b2a3d;
+  /* Other */
+  --sable-focus-ring: rgba(144, 122, 169, 0.45);
+  --sable-shadow: rgba(87, 82, 121, 0.12);
+  --sable-overlay: rgba(87, 82, 121, 0.35);
+}
+

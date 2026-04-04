@@ -6,7 +6,7 @@ author: wrigglebug
 kind: dark
 contrast: low
 tags: dark, purple
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/rose-pine.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine.sable.css
 */
 
 body.sable-remote-theme {
@@ -88,3 +88,4 @@ body.sable-remote-theme {
   --sable-shadow: rgba(0, 0, 0, 0.5);
   --sable-overlay: rgba(25, 23, 36, 0.85);
 }
+

@@ -6,7 +6,7 @@ author: dollth-ing
 kind: dark
 contrast: high
 tags: dark, retro
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/gruvdark.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/gruvdark.sable.css
 */
 
 body.sable-remote-theme {
@@ -99,3 +99,4 @@ body.sable-remote-theme {
   --mx-uc-7: #fabd2f;
   --mx-uc-8: #cc241d;
 }
+

@@ -1,39 +1,39 @@
 ﻿/*
 @sable-theme
-id: cinny-dark
-name: Cinny Dark
-author: Cinny
+id: accord
+name: Accord
+author: kr0nst
 kind: dark
 contrast: low
-tags: dark, cinny
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/cinny-dark.sable.css
+tags: dark
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/accord.sable.css
 */
 
 body.sable-remote-theme {
   /* Background */
-  --sable-bg-container: #1a1a1a;
-  --sable-bg-container-hover: #262626;
-  --sable-bg-container-active: #333333;
-  --sable-bg-container-line: #404040;
+  --sable-bg-container: #2c2d32;
+  --sable-bg-container-hover: #35353a;
+  --sable-bg-container-active: #414248;
+  --sable-bg-container-line: #38393e;
   --sable-bg-on-container: #f2f2f2;
   /* Surface */
-  --sable-surface-container: #262626;
-  --sable-surface-container-hover: #333333;
+  --sable-surface-container: #323339;
+  --sable-surface-container-hover: #3a3b41;
   --sable-surface-container-active: #404040;
-  --sable-surface-container-line: #4d4d4d;
-  --sable-surface-on-container: #f2f2f2;
+  --sable-surface-container-line: #484a50;
+  --sable-surface-on-container: #fff;
   /* Surface Variant */
-  --sable-surface-var-container: #333333;
+  --sable-surface-var-container: #393a41;
   --sable-surface-var-container-hover: #404040;
   --sable-surface-var-container-active: #4d4d4d;
-  --sable-surface-var-container-line: #595959;
+  --sable-surface-var-container-line: #3d3e44;
   --sable-surface-var-on-container: #f2f2f2;
   /* Primary */
-  --sable-primary-main: #bdb6ec;
+  --sable-primary-main: #5865f2;
   --sable-primary-main-hover: #b2aae9;
   --sable-primary-main-active: #ada3e8;
   --sable-primary-main-line: #a79de6;
-  --sable-primary-on-main: #2c2843;
+  --sable-primary-on-main: #fff;
   --sable-primary-container: #413c65;
   --sable-primary-container-hover: #494370;
   --sable-primary-container-active: #50497b;
@@ -45,10 +45,10 @@ body.sable-remote-theme {
   --sable-sec-main-active: #d9d9d9;
   --sable-sec-main-line: #cccccc;
   --sable-sec-on-main: #1a1a1a;
-  --sable-sec-container: #404040;
+  --sable-sec-container: #323339;
   --sable-sec-container-hover: #4d4d4d;
   --sable-sec-container-active: #595959;
-  --sable-sec-container-line: #666666;
+  --sable-sec-container-line: #46474e;
   --sable-sec-on-container: #f2f2f2;
   /* Success */
   --sable-success-main: #85e0ba;
@@ -72,8 +72,8 @@ body.sable-remote-theme {
   --sable-warn-container-active: #734d27;
   --sable-warn-container-line: #7d542b;
   --sable-warn-on-container: #f3e2d1;
-  /* Critical */
-  --sable-crit-main: #e69d9d;
+  /* Crtical */
+  --sable-crit-main: #f7908b;
   --sable-crit-main-hover: #e28d8d;
   --sable-crit-main-active: #e08585;
   --sable-crit-main-line: #de7d7d;
@@ -87,4 +87,16 @@ body.sable-remote-theme {
   --sable-focus-ring: rgba(255, 255, 255, 0.5);
   --sable-shadow: rgba(0, 0, 0, 1);
   --sable-overlay: rgba(0, 0, 0, 0.8);
+
+  --tc-link: #76aff6;
+
+  --mx-uc-1: hsl(260, 100%, 75%);
+  --mx-uc-2: hsl(320, 100%, 75%);
+  --mx-uc-3: hsl(180, 100%, 65%);
+  --mx-uc-4: hsl(150, 100%, 70%);
+  --mx-uc-5: hsl(200, 100%, 75%);
+  --mx-uc-6: hsl(280, 80%, 70%);
+  --mx-uc-7: hsl(40, 100%, 75%);
+  --mx-uc-8: hsl(0, 100%, 75%);
 }
+

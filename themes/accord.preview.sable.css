@@ -6,7 +6,7 @@ author: kr0nst
 kind: dark
 contrast: low
 tags: dark
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/accord.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/accord.sable.css
 */
 
 .sable-theme-preview {
@@ -18,3 +18,4 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/accord.s
   --sable-primary-main: #5865f2;
   --sable-primary-on-main: #fff;
 }
+

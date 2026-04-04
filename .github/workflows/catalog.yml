@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - '**.css'
+      - 'themes/**'
+      - 'tweaks/**'
       - 'catalog.json'
       - 'scripts/build-catalog.mjs'
       - '.github/workflows/catalog.yml'

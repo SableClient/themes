@@ -6,7 +6,7 @@ author: Cinny
 kind: light
 contrast: low
 tags: light, cinny
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/cinny-silver.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-silver.sable.css
 */
 
 .sable-theme-preview {
@@ -18,3 +18,4 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/cinny-si
   --sable-primary-main: #1245a8;
   --sable-primary-on-main: #ffffff;
 }
+

@@ -6,10 +6,9 @@ author: Sable
 kind: dark
 contrast: low
 tags: default, bundled
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/dark.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/dark.sable.css
 */
 
-/* Preview strip: only these seven tokens are applied by Sable (see README). */
 .sable-theme-preview {
   --sable-bg-container: #1b1a21;
   --sable-bg-on-container: #eae8f0;
@@ -19,3 +18,4 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/dark.sab
   --sable-primary-main: #bdb6ec;
   --sable-primary-on-main: #1b1a21;
 }
+

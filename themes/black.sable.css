@@ -6,7 +6,7 @@ author: Elec3137
 kind: dark
 contrast: high
 tags: dark, oled
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/black.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/black.sable.css
 */
 
 body.sable-remote-theme {
@@ -88,3 +88,4 @@ body.sable-remote-theme {
   --sable-shadow: rgba(0, 0, 0, 0.4);
   --sable-overlay: rgba(15, 14, 18, 0.85);
 }
+

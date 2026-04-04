@@ -6,7 +6,7 @@ author: Sable
 kind: dark
 contrast: low
 tags: dark, warm
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/butter.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/butter.sable.css
 */
 
 body.sable-remote-theme {
@@ -88,3 +88,4 @@ body.sable-remote-theme {
   --sable-shadow: rgba(0, 0, 0, 0.6);
   --sable-overlay: rgba(15, 14, 12, 0.9);
 }
+

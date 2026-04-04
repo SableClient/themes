@@ -6,7 +6,7 @@ author: Sable
 kind: light
 contrast: low
 tags: light, bundled
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/silver.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/silver.sable.css
 */
 
 .sable-theme-preview {
@@ -18,3 +18,4 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/silver.s
   --sable-primary-main: #6e56cf;
   --sable-primary-on-main: #ffffff;
 }
+

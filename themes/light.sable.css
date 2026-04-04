@@ -6,7 +6,7 @@ author: Sable
 kind: light
 contrast: low
 tags: default, bundled
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/light.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/light.sable.css
 */
 
 body.sable-remote-theme {
@@ -88,3 +88,4 @@ body.sable-remote-theme {
   --sable-shadow: rgba(0, 0, 0, 0.1);
   --sable-overlay: rgba(0, 0, 0, 0.4);
 }
+

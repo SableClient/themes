@@ -6,10 +6,9 @@ author: dollth-ing
 kind: dark
 contrast: high
 tags: dark, retro
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/gruvdark.sable.css
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/gruvdark.sable.css
 */
 
-/* Preview strip: only these seven tokens are applied by Sable (see README). */
 .sable-theme-preview {
   --sable-bg-container: #282828;
   --sable-bg-on-container: #fbf1c7;
@@ -19,3 +18,4 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/gruvdark
   --sable-primary-main: #fbf1c7;
   --sable-primary-on-main: #1d2021;
 }
+
