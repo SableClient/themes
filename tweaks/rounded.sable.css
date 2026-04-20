@@ -2,12 +2,13 @@
 @sable-tweak
 id: rounded
 name: Circular avatars
-description: Clips message avatars to a circle.
+description: Clips message and members list avatars to a circle.
 author: Sable
 tags: demo, layout, avatar
 */
 
-body.sable-remote-theme span[class*='layout_AvatarBase'] > * {
+body.sable-remote-theme span[class*='layout_AvatarBase'] > *,
+body.sable-remote-theme [class*='UserAvatar'] {
   border-radius: 50%;
   overflow: hidden;
 }
