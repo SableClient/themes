@@ -1,0 +1,12 @@
+/*
+@sable-tweak
+id: square-avatars
+name: Square avatars
+description: Clips avatars to sharp square corners.
+author: Sable
+tags: avatar
+*/
+
+body.sable-remote-theme [class*='UserAvatar'] {
+  border-radius: 0;
+}

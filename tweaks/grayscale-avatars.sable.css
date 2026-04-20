@@ -1,0 +1,12 @@
+/*
+@sable-tweak
+id: grayscale-avatars
+name: Grayscale avatars
+description: Desaturates user avatars to grayscale.
+author: Sable
+tags: avatar
+*/
+
+body.sable-remote-theme [class*='UserAvatar'] {
+  filter: grayscale(100%);
+}

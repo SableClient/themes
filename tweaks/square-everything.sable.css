@@ -1,0 +1,13 @@
+/*
+@sable-tweak
+id: square-everything
+name: Square everything
+description: Removes all border radius for a sharp, brutalist look.
+author: Sable
+tags: global, layout
+*/
+
+body.sable-remote-theme,
+body.sable-remote-theme * {
+  border-radius: 0 !important;
+}
