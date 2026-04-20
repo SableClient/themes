@@ -71,8 +71,20 @@
   ],
   "tweaks": [
     {
+      "basename": "grayscale-avatars",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/grayscale-avatars.sable.css"
+    },
+    {
       "basename": "rounded",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/rounded.sable.css"
+    },
+    {
+      "basename": "square-avatars",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/square-avatars.sable.css"
+    },
+    {
+      "basename": "square-everything",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/square-everything.sable.css"
     }
   ]
 }
