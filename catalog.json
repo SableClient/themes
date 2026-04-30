@@ -19,6 +19,26 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/butter.sable.css"
     },
     {
+      "basename": "catppuccin-frappe",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-frappe.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-frappe.sable.css"
+    },
+    {
+      "basename": "catppuccin-latte",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-latte.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-latte.sable.css"
+    },
+    {
+      "basename": "catppuccin-macchiato",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-macchiato.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-macchiato.sable.css"
+    },
+    {
+      "basename": "catppuccin-mocha",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-mocha.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-mocha.sable.css"
+    },
+    {
       "basename": "cinny-dark",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-dark.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-dark.sable.css"
@@ -67,26 +87,6 @@
       "basename": "silver",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/silver.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/silver.sable.css"
-    },
-    {
-      "basename": "catppuccin-latte",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-latte.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-latte.sable.css"
-    },
-    {
-      "basename": "catppuccin-frappe",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-frappe.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-frappe.sable.css"
-    },
-    {
-      "basename": "catppuccin-macchiato",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-macchiato.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-macchiato.sable.css"
-    },
-    {
-      "basename": "catppuccin-mocha",
-      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-mocha.preview.sable.css",
-      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-mocha.sable.css"
     }
   ],
   "tweaks": [
