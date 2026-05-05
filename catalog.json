@@ -39,6 +39,11 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/catppuccin-mocha.sable.css"
     },
     {
+      "basename": "cinny-butter",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-butter.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-butter.sable.css"
+    },
+    {
       "basename": "cinny-dark",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-dark.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/cinny-dark.sable.css"
