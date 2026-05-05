@@ -100,6 +100,10 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/grayscale-avatars.sable.css"
     },
     {
+      "basename": "rightbar",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/rightbar.sable.css"
+    },
+    {
       "basename": "rounded",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/rounded.sable.css"
     },
