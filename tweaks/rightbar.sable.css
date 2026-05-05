@@ -1,0 +1,17 @@
+/*
+@sable-tweak
+id: rightbar
+name: Rightside Navbar
+description: Moves navigation bar from left side to right side.
+author: Dollth.ing
+tags: Navigation
+*/
+
+body.sable-remote-theme [class*='Sidebar__'] {
+  border-left: 1px solid var(--sable-bg-container-line);
+  border-right: 0px solid var(--sable-bg-container-line);
+}
+
+#root > div:nth-child(3) {
+    flex-direction: row-reverse;
+}
