@@ -7,9 +7,19 @@ author: Sable
 tags: demo, layout, avatar
 */
 
-body.sable-remote-theme span[class*='layout_AvatarBase'] > *,
-body.sable-remote-theme [class*='UserHeroAvatar'],
-body.sable-remote-theme [class*='UserAvatar'] {
+body.sable-remote-theme img[class*='UserAvatar'],
+body.sable-remote-theme span[class*='UserAvatar'] {
   border-radius: 50%;
   overflow: hidden;
+}
+
+body.sable-remote-theme button[class*='UserHeroAvatar'],
+body.sable-remote-theme div[class*='UserHeroAvatar__'] {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+body.sable-remote-theme div[class*='UserAvatarContainer'] {
+  border-radius: 50%;
+  overflow: visible !important; 
 }

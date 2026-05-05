@@ -7,7 +7,19 @@ author: Sable
 tags: avatar
 */
 
-body.sable-remote-theme [class*='UserHeroAvatar'],
-body.sable-remote-theme [class*='UserAvatar'] {
-  border-radius: 0;
+body.sable-remote-theme img[class*='UserAvatar'],
+body.sable-remote-theme span[class*='UserAvatar'] {
+  border-radius: 0 !important;
+  overflow: hidden;
+}
+
+body.sable-remote-theme button[class*='UserHeroAvatar'],
+body.sable-remote-theme div[class*='UserHeroAvatar__'] {
+  border-radius: 0 !important;
+  overflow: hidden;
+}
+
+body.sable-remote-theme div[class*='UserAvatarContainer'] {
+  border-radius: 0 !important;
+  overflow: visible !important; 
 }
