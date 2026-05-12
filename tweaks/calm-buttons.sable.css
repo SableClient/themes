@@ -1,0 +1,13 @@
+/*
+@sable-tweak
+id: calm-buttons
+name: Calm Buttons
+description: Removes button hover animations to calm down the UI.
+author: Sangelo
+tags: buttons, animations
+*/
+
+body.sable-remote-theme button:hover,
+body.sable-remote-theme button:active {
+  transform: none !important;
+}
