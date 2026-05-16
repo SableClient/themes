@@ -1,0 +1,20 @@
+/*
+@sable-theme
+id: horizon-light
+name: Horizon Bright
+author: Jonathan Olaleye / Flori Ava Star
+kind: light
+contrast: low
+tags: light, horizon, pink, warm
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/horizon-light.sable.css
+*/
+
+.sable-theme-preview {
+    --sable-bg-container: #fdf0ed;
+    --sable-bg-on-container: #06060c;
+    --sable-surface-container: #fadad1;
+    --sable-surface-container-line: #f9cec3;
+    --sable-surface-on-container: #06060c;
+    --sable-primary-main: #e84a72;
+    --sable-primary-on-main: #fdf0ed;
+}

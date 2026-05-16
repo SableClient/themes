@@ -1,0 +1,98 @@
+/*
+@sable-theme
+id: horizon-light
+name: Horizon Bright
+author: Jonathan Olaleye / Flori Ava Star
+kind: light
+contrast: low
+tags: light, horizon, pink, warm
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/horizon-light.sable.css
+*/
+
+body.sable-remote-theme {
+    /* Background */
+    --sable-bg-container: #fdf0ed;
+    --sable-bg-container-hover: #fadad1;
+    --sable-bg-container-active: #f9cbbe;
+    --sable-bg-container-line: #f9cbbe;
+    --sable-bg-on-container: #06060c;
+
+    /* Surface */
+    --sable-surface-container: #fadad1;
+    --sable-surface-container-hover: #f9cbbe;
+    --sable-surface-container-active: #f9cbbe;
+    --sable-surface-container-line: #f9cec3;
+    --sable-surface-on-container: #06060c;
+
+    /* Surface Variant */
+    --sable-surface-var-container: #fdf0ed;
+    --sable-surface-var-container-hover: #fdf0ed80;
+    --sable-surface-var-container-active: #f9cbbe;
+    --sable-surface-var-container-line: #f9cbbe;
+    --sable-surface-var-on-container: #06060c;
+
+    /* Primary */
+    --sable-primary-main: #e84a72;
+    --sable-primary-main-hover: #e84a72d8;
+    --sable-primary-main-active: #e84a72b4;
+    --sable-primary-main-line: #e84a72a0;
+    --sable-primary-on-main: #fdf0ed;
+    --sable-primary-container: #e84a7212;
+    --sable-primary-container-hover: #e84a721a;
+    --sable-primary-container-active: #e84a7212;
+    --sable-primary-container-line: #e84a7208;
+    --sable-primary-on-container: #e84a72;
+
+    /* Secondary */
+    --sable-sec-main: #f9cec3;
+    --sable-sec-main-hover: #1eaeae;
+    --sable-sec-main-active: #26bbd9;
+    --sable-sec-main-line: #f9cec3;
+    --sable-sec-on-main: #fdf0ed;
+    --sable-sec-container: #f9cbbe;
+    --sable-sec-container-hover: #fadad1;
+    --sable-sec-container-active: #f9cbbe;
+    --sable-sec-container-line: #f9cec3;
+    --sable-sec-on-container: #06060c;
+
+    /* Success */
+    --sable-success-main: #07da8c;
+    --sable-success-main-hover: #07da8cd8;
+    --sable-success-main-active: #07da8cb4;
+    --sable-success-main-line: #07da8ca0;
+    --sable-success-on-main: #fdf0ed;
+    --sable-success-container: #f9cbbe;
+    --sable-success-container-hover: #07da8c1a;
+    --sable-success-container-active: #07da8c12;
+    --sable-success-container-line: #f9cbbe;
+    --sable-success-on-container: #07da8c;
+
+    /* Warning */
+    --sable-warn-main: #af5427;
+    --sable-warn-main-hover: #af5427d8;
+    --sable-warn-main-active: #af5427b4;
+    --sable-warn-main-line: #af5427a0;
+    --sable-warn-on-main: #fdf0ed;
+    --sable-warn-container: #f9cbbe;
+    --sable-warn-container-hover: #af54271a;
+    --sable-warn-container-active: #af542712;
+    --sable-warn-container-line: #f9cbbe;
+    --sable-warn-on-container: #af5427;
+
+    /* Critical */
+    --sable-crit-main: #f43e5c;
+    --sable-crit-main-hover: #f43e5cd8;
+    --sable-crit-main-active: #f43e5cb4;
+    --sable-crit-main-line: #f43e5ca0;
+    --sable-crit-on-main: #fdf0ed;
+    --sable-crit-container: #f9cbbe;
+    --sable-crit-container-hover: #f43e5c1a;
+    --sable-crit-container-active: #f43e5c12;
+    --sable-crit-container-line: #f9cbbe;
+    --sable-crit-on-container: #f43e5c;
+
+    /* Other */
+    --sable-focus-ring: rgb(232, 74, 114, 0.5);
+    --sable-shadow: rgba(26, 28, 35, 0.12);
+    --sable-overlay: rgba(253, 240, 237, 0.85);
+}

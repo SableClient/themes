@@ -1,0 +1,20 @@
+/*
+@sable-theme
+id: horizon-dark
+name: Horizon Dark
+author: Jonathan Olaleye / Flori Ava Star
+kind: dark
+contrast: low
+tags: dark, horizon, pink, purple
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/horizon-dark.sable.css
+*/
+
+.sable-theme-preview {
+    --sable-bg-container: #1c1e26;
+    --sable-bg-on-container: #d5d8da;
+    --sable-surface-container: #232530;
+    --sable-surface-container-line: #6c6f93;
+    --sable-surface-on-container: #d5d8da;
+    --sable-primary-main: #e95378;
+    --sable-primary-on-main: #1c1e26;
+}
