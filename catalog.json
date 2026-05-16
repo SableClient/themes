@@ -69,6 +69,16 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/gruvdark.sable.css"
     },
     {
+      "basename": "horizon-dark",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/horizon-dark.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/horizon-dark.sable.css"
+    },
+    {
+      "basename": "horizon-light",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/horizon-light.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/horizon-light.sable.css"
+    },
+    {
       "basename": "light",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/light.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/light.sable.css"
