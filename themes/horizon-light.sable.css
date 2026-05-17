@@ -12,14 +12,14 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/h
 body.sable-remote-theme {
     /* Background */
     --sable-bg-container: #fdf0ed;
-    --sable-bg-container-hover: #fadad1;
+    --sable-bg-container-hover: #fdf0ed;
     --sable-bg-container-active: #f9cbbe;
     --sable-bg-container-line: #f9cbbe;
     --sable-bg-on-container: #06060c;
 
     /* Surface */
-    --sable-surface-container: #fadad1;
-    --sable-surface-container-hover: #f9cbbe;
+    --sable-surface-container: #fdf0ed;
+    --sable-surface-container-hover: #fadad1;
     --sable-surface-container-active: #f9cbbe;
     --sable-surface-container-line: #f9cec3;
     --sable-surface-on-container: #06060c;
