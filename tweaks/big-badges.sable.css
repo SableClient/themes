@@ -1,0 +1,12 @@
+/*
+ @ *sable-tweak
+ id: big-badges
+ name: Big Notification Badges
+ description: Resizes notification badges to be 25% bigger.
+ author: SpookyValerie
+ tags: badge, global, accessibility
+ */
+
+body.sable-remote-theme [data-sentry-component*='UnreadBadge']:not(:has([data-sentry-component*='UnreadBadge'])) {
+  transform: scale(125%);
+}
