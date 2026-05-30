@@ -1,0 +1,20 @@
+/*
+@sable-theme
+id: amethyst
+name: Amethyst
+author: liavnk, Elec3137, catppuccin
+kind: dark
+contrast: high
+tags: dark, oled
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/amethyst.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #000000FF;
+  --sable-bg-on-container: #FFFFFFFF;
+  --sable-surface-container: #101010FF;
+  --sable-surface-container-line: #1F1632FF;
+  --sable-surface-on-container: #FFFFFFFF;
+  --sable-primary-main: #1F1632FF;
+  --sable-primary-on-main: #FFFFFFFF;
+}

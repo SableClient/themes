@@ -1,0 +1,90 @@
+/*
+@sable-theme
+id: amethyst
+name: Amethyst
+author: liavnk, Elec3137, catppuccin
+kind: dark
+contrast: high
+tags: dark, oled
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/amethyst.sable.css
+*/
+
+body.sable-remote-theme {
+  /* Background */
+  --sable-bg-container: #000000FF;
+  --sable-bg-container-hover: #101010FF;
+  --sable-bg-container-active: #101010FF;
+  --sable-bg-container-line: #1F1632FF;
+  --sable-bg-on-container: #FFFFFFFF;
+  /* Surface */
+  --sable-surface-container: #101010FF;
+  --sable-surface-container-hover: #101010FF;
+  --sable-surface-container-active: #101010FF;
+  --sable-surface-container-line: #1F1632FF;
+  --sable-surface-on-container: #FFFFFFFF;
+  /* Surface Variant */
+  --sable-surface-var-container: #050505FF;
+  --sable-surface-var-container-hover: #101010FF;
+  --sable-surface-var-container-active: #101010FF;
+  --sable-surface-var-container-line: #1F1632FF;
+  --sable-surface-var-on-container: #FFFFFFFF;
+  /* Primary */
+  --sable-primary-main: #1F1632FF;
+  --sable-primary-main-hover: #3E2C65FF;
+  --sable-primary-main-active: #654A9FFF;
+  --sable-primary-main-line: #3E2C65FF;
+  --sable-primary-on-main: #FFFFFFFF;
+  --sable-primary-container: #2D235CFF;
+  --sable-primary-container-hover: #3E2C65FF;
+  --sable-primary-container-active: #654A9FFF;
+  --sable-primary-container-line: #3E2C65FF;
+  --sable-primary-on-container: #e3e1f7FF;
+  /* Secondary */
+  --sable-sec-main: #000000FF;
+  --sable-sec-main-hover: #202020FF;
+  --sable-sec-main-active: #101010FF;
+  --sable-sec-main-line: #654A9FFF;
+  --sable-sec-on-main: #FFFFFFFF;
+  --sable-sec-container: #101010FF;
+  --sable-sec-container-hover: #202020FF;
+  --sable-sec-container-active: #101010FF;
+  --sable-sec-container-line: #202020FF;
+  --sable-sec-on-container: #FFFFFFFF;
+  /* Success */
+  --sable-success-main: #A6E3A1FF;
+  --sable-success-main-hover: #A6E3A1D8;
+  --sable-success-main-active: #A6E3A1B4;
+  --sable-success-main-line: #A6E3A1A0;
+  --sable-success-on-main: #000000FF;
+  --sable-success-container: #101010FF;
+  --sable-success-container-hover: #202020FF;
+  --sable-success-container-active: #A6E3A1B4;
+  --sable-success-container-line: #101010FF;
+  --sable-success-on-container: #A6E3A1FF;
+  /* Warning */
+  --sable-warn-main: #FAB387FF;
+  --sable-warn-main-hover: #FAB387D8;
+  --sable-warn-main-active: #FAB387B4;
+  --sable-warn-main-line: #FAB387A0;
+  --sable-warn-on-main: #000000FF;
+  --sable-warn-container: #101010FF;
+  --sable-warn-container-hover: #FAB3871A;
+  --sable-warn-container-active: #FAB38712;
+  --sable-warn-container-line: #101010FF;
+  --sable-warn-on-container: #FAB387FF;
+  /* Crtical */
+  --sable-crit-main: #F38BA8FF;
+  --sable-crit-main-hover: #F38BA8D8;
+  --sable-crit-main-active: #F38BA8B4;
+  --sable-crit-main-line: #F38BA8A0;
+  --sable-crit-on-main: #000000FF;
+  --sable-crit-container: #101010FF;
+  --sable-crit-container-hover: #F38BA81A;
+  --sable-crit-container-active: #F38BA812;
+  --sable-crit-container-line: #101010FF;
+  --sable-crit-on-container: #F38BA8FF;
+  /* Other */
+  --sable-focus-ring: #1F1632FF;
+  --sable-shadow: #00000066;
+  --sable-overlay: #000000D9;
+}
