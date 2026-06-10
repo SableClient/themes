@@ -1,0 +1,21 @@
+/*
+@sable-theme
+id: blue-nord
+name: Blue Nord
+author: userspring
+kind: dark
+contrast: low
+tags: dark, grey, nord, blue
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/blue-nord.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: hsl(210, 25%, 24.48%);
+  --sable-bg-on-container: hsl(210, 12.5%, 85%);
+  --sable-surface-container: hsl(210, 25%, 23.8%);
+  --sable-surface-container-line: hsl(210, 25%, 30.94%);
+  --sable-surface-on-container: hsl(210, 20%, 95%);
+  --sable-primary-main: hsl(210, 25%, 34%);
+  --sable-primary-on-main: hsl(210, 12.5%, 85%);
+}
+

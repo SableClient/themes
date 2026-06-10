@@ -1,0 +1,103 @@
+/*
+@sable-theme
+id: blue-nord
+name: Blue Nord
+author: userspring
+kind: dark
+contrast: low
+tags: dark, grey, nord, blue
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/blue-nord.sable.css
+*/
+
+body.sable-remote-theme {
+  /* Background */
+  --sable-bg-container: hsl(210, 25%, 20.4%);
+  --sable-bg-container-hover: hsl(210, 25%, 22.44%);
+  --sable-bg-container-active: hsl(210, 25%, 24.48%);
+  --sable-bg-container-line: hsl(210, 25%, 26.52%);
+  --sable-bg-on-container: hsl(210, 12.5%, 85%);
+
+  /* Surface */
+  --sable-surface-container: hsl(210, 25%, 23.8%);
+  --sable-surface-container-hover: hsl(210, 25%, 26.18%);
+  --sable-surface-container-active: hsl(210, 25%, 28.56%);
+  --sable-surface-container-line: hsl(210, 25%, 30.94%);
+  --sable-surface-on-container: hsl(210, 20%, 95%);
+
+  /* Surface Variant */
+  --sable-surface-var-container: hsl(210, 30%, 17%);
+  --sable-surface-var-container-hover: hsl(210, 30%, 18.7%);
+  --sable-surface-var-container-active: hsl(210, 30%, 20.4%);
+  --sable-surface-var-container-line: hsl(210, 30%, 22.1%);
+  --sable-surface-var-on-container: hsl(210, 25%, 100%);
+
+  /* Primary */
+  --sable-primary-main: hsl(210, 25%, 34%);
+  --sable-primary-main-hover: hsl(210, 25%, 37.4%);
+  --sable-primary-main-active: hsl(210, 25%, 40.8%);
+  --sable-primary-main-line: hsl(210, 25%, 44.2%);
+  --sable-primary-on-main: hsl(210, 12.5%, 85%);
+  --sable-primary-container: hsl(210, 20%, 68%);
+  --sable-primary-container-hover: hsl(210, 20%, 48.62%);
+  --sable-primary-container-active: hsl(210, 20%, 53.04%);
+  --sable-primary-container-line: hsl(210, 20%, 57.46%);
+  --sable-primary-on-container: hsl(210, 25%, 20.4%);
+
+  /* Secondary */
+  --sable-sec-main: hsl(40, 35%, 64%);
+  --sable-sec-main-hover: hsl(40, 50%, 88%);
+  --sable-sec-main-active: hsl(40, 50%, 96%);
+  --sable-sec-main-line: hsl(40, 50%, 100%);
+  --sable-sec-on-main: hsl(40, 50%, 24%);
+  --sable-sec-container: hsl(40, 35%, 40%);
+  --sable-sec-container-hover: hsl(40, 35%, 44%);
+  --sable-sec-container-active: hsl(40, 35%, 48%);
+  --sable-sec-container-line: hsl(40, 35%, 52%);
+  --sable-sec-on-container: hsl(40, 50%, 96%);
+
+  /* Success */
+  --sable-success-main: hsl(189, 46%, 73%);
+  --sable-success-main-hover: hsl(189, 46%, 80.3%);
+  --sable-success-main-active: hsl(189, 46%, 87.6%);
+  --sable-success-main-line: hsl(189, 46%, 94.9%);
+  --sable-success-on-main: hsl(189, 23%, 14.6%);
+  --sable-success-container: hsl(189, 27.6%, 21.9%);
+  --sable-success-container-hover: hsl(189, 27.6%, 24.09%);
+  --sable-success-container-active: hsl(189, 27.6%, 26.28%);
+  --sable-success-container-line: hsl(189, 27.6%, 28.47%);
+  --sable-success-on-container: hsl(189, 46%, 87.6%);
+
+  /* Warning */
+  --sable-warn-main: hsl(40, 100%, 100%);
+  --sable-warn-main-hover: hsl(40, 50%, 100%);
+  --sable-warn-main-active: hsl(40, 50%, 100%);
+  --sable-warn-main-line: hsl(40, 50%, 100%);
+  --sable-warn-on-main: hsl(40, 25%, 30%);
+  --sable-warn-container: hsl(40, 30%, 45%);
+  --sable-warn-container-hover: hsl(40, 30%, 49.5%);
+  --sable-warn-container-active: hsl(40, 30%, 54%);
+  --sable-warn-container-line: hsl(40, 30%, 58.5%);
+  --sable-warn-on-container: hsl(40, 50%, 100%);
+
+  /* Critical */
+  --sable-crit-main: hsl(345, 73%, 68%);
+  --sable-crit-main-hover: hsl(345, 73%, 74.8%);
+  --sable-crit-main-active: hsl(345, 73%, 81.6%);
+  --sable-crit-main-line: hsl(345, 73%, 88.4%);
+  --sable-crit-on-main: hsl(345, 36.5%, 13.6%);
+  --sable-crit-container: hsl(345, 43.8%, 20.4%);
+  --sable-crit-container-hover: hsl(345, 43.8%, 22.44%);
+  --sable-crit-container-active: hsl(345, 43.8%, 24.48%);
+  --sable-crit-container-line: hsl(345, 43.8%, 26.52%);
+  --sable-crit-on-container: hsl(345, 73%, 81.6%);
+
+  /* Other */
+  --sable-focus-ring: hsla(210, 25%, 34%, 0.5);
+  --sable-shadow: hsla(0, 0%, 0%, 0.5);
+  --sable-overlay: hsla(210, 25%, 13.6%, 0.85);
+}
+
+/* Left Panel Buttons */
+body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]:hover {
+  background-color: hsl(210, 25%, 30.6%);
+}

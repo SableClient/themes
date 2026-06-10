@@ -1,0 +1,21 @@
+/*
+@sable-theme
+id: shark-deep-blue
+name: Shark Deep Blue
+author: userspring
+kind: dark
+contrast: low
+tags: dark, ocean, red bleed
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/shark-deep-blue.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: hsl(207, 34.72%, 12.56%);
+  --sable-bg-on-container: hsl(203, 65%, 85%);
+  --sable-surface-container: hsl(205, 33.14%, 16.14%);
+  --sable-surface-container-line: hsl(206, 33.14%, 28.70%);
+  --sable-surface-on-container: hsl(203, 40%, 95%);
+  --sable-primary-main: hsl(225, 89.95%, 84.47%);
+  --sable-primary-on-main: hsl(207, 34.72%, 12.56%);
+}
+
