@@ -19,6 +19,11 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/black.sable.css"
     },
     {
+      "basename": "blue-nord",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/blue-nord.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/blue-nord.sable.css"
+    },
+    {
       "basename": "butter",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/butter.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/butter.sable.css"
@@ -102,6 +107,11 @@
       "basename": "rose-pine-moon",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine-moon.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine-moon.sable.css"
+    },
+    {
+      "basename": "shark-deep-blue",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/shark-deep-blue.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/shark-deep-blue.sable.css"
     },
     {
       "basename": "silver",
