@@ -8,11 +8,45 @@ contrast: low
 tags: dark, ocean, red bleed
 fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/shark-deep-blue.sable.css
 */
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani');
 @font-face {
   font-family: 'Twemoji';
   src: url('https://raw.githubusercontent.com/SableClient/Sable/dev/public/font/Twemoji.Mozilla.v15.1.0.woff2') format('woff2'),
        url('https://raw.githubusercontent.com/SableClient/Sable/dev/public/font/Twemoji.Mozilla.v15.1.0.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-weight: 300; /* light */
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Light.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-weight: 400; /* regular */
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-weight: 500; /* medium */
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Medium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-weight: 600; /* semi‑bold */
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-SemiBold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-weight: 700; /* bold */
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Bold.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -106,6 +140,8 @@ body.sable-remote-theme {
   --sable-overlay: hsla(207, 34.72%, 12.56%, 0.85);
 }
 
+/* --- Left Panel Buttons --- */
+/* Animated Hover Color Transition */
 body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"] {
   position: relative;
   background-color: hsl(205, 33.14%, 16.14%);
@@ -114,8 +150,6 @@ body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"] {
   isolation: isolate;
 }
 
-/* --- Left Panel Buttons --- */
-/* Animated Hover Color Transition */
 body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]::before {
   content: '';
   position: absolute;
@@ -130,10 +164,10 @@ body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]::before {
   transition: transform 2.3s ease-out;
   z-index: -1;
 }
-/* The Base Color */
+
 body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"] {
   position: relative;
-  background-color: hsl(209, 37.34%, 12.5%);
+  background-color: hsl(209, 37.34%, 12.5%); /* Base Color */
   overflow: hidden;
   transition: background-color 0.3s ease;
 }
