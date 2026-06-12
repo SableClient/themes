@@ -1,0 +1,192 @@
+/*
+@sable-theme
+id: shark-deep-blue
+name: Shark Deep Blue
+author: userspring
+kind: dark
+contrast: low
+tags: dark, ocean, red bleed
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/shark-deep-blue.sable.css
+*/
+@font-face {
+  font-family: 'Twemoji';
+  src: url('https://raw.githubusercontent.com/SableClient/Sable/dev/public/font/Twemoji.Mozilla.v15.1.0.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/SableClient/Sable/dev/public/font/Twemoji.Mozilla.v15.1.0.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-weight: 300; /* light */
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Light.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-weight: 400; /* regular */
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-weight: 500; /* medium */
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Medium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-weight: 600; /* semi‑bold */
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-SemiBold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani';
+  font-weight: 700; /* bold */
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+body.sable-remote-theme {
+  font-family: 'Rajdhani', serif, 'Twemoji', system-ui;
+
+  /* --- Background --- */
+  --sable-bg-container: hsl(207, 34.72%, 12.56%);
+  --sable-bg-container-hover: hsl(205, 33.14%, 16.14%);
+  --sable-bg-container-active: hsl(206, 31.56%, 19.49%);
+  --sable-bg-container-line: hsl(206, 22.09%, 20.58%);
+  --sable-bg-on-container: hsl(203, 70%, 75%);
+
+  /* --- Surface --- */
+  --sable-surface-container: hsl(205, 33.14%, 16.14%);
+  --sable-surface-container-hover: hsl(206, 31.56%, 19.49%);
+  --sable-surface-container-active: hsl(206, 22.09%, 20.58%);
+  --sable-surface-container-line: hsl(206, 33.14%, 28.70%);
+  --sable-surface-on-container: hsl(203, 40%, 95%);
+
+  /* --- Surface Variant --- */
+  --sable-surface-var-container: hsl(209, 52.07%, 10.18%);
+  --sable-surface-var-container-hover: hsl(353, 34.72%, 12.56%);
+  --sable-surface-var-container-active: hsl(205, 33.14%, 16.14%);
+  --sable-surface-var-container-line: hsl(353, 47.34%, 30.32%);
+  --sable-surface-var-on-container: hsl(225, 89.95%, 84.47%);
+
+  /* --- Primary --- */
+  --sable-primary-main: hsl(225, 89.95%, 84.47%);
+  --sable-primary-main-hover: hsl(206, 77.32%, 78.19%);
+  --sable-primary-main-active: hsl(226, 69.43%, 71.80%);
+  --sable-primary-main-line: hsl(227, 64.70%, 65.41%);
+  --sable-primary-on-main: hsl(207, 34.72%, 12.56%);
+  --sable-primary-container: hsl(206, 37.87%, 21.66%);
+  --sable-primary-container-hover: hsl(353, 34.72%, 27.83%);
+  --sable-primary-container-active: hsl(203, 33.14%, 34.01%);
+  --sable-primary-container-line: hsl(203, 33.14%, 40.18%);
+  --sable-primary-on-container: hsl(203, 78.9%, 98.99%);
+
+  /* --- Secondary --- */
+  --sable-sec-main: hsl(206, 23.67%, 65.85%);
+  --sable-sec-main-hover: hsl(353, 22.09%, 72.45%);
+  --sable-sec-main-active: hsl(208, 20.51%, 79.38%);
+  --sable-sec-main-line: hsl(208, 18.94%, 85.99%);
+  --sable-sec-on-main: hsl(207, 34.72%, 12.56%);
+  --sable-sec-container: hsl(206, 31.56%, 19.49%);
+  --sable-sec-container-hover: hsl(353, 55.23%, 23.83%);
+  --sable-sec-container-active: hsl(206, 33.14%, 28.70%);
+  --sable-sec-container-line: hsl(206, 23.67%, 32.49%);
+  --sable-sec-on-container: hsl(203, 78.9%, 98.99%);
+
+  /* --- Success --- */
+  --sable-success-main: hsl(206, 72.59%, 79.17%);
+  --sable-success-main-hover: hsl(353, 69.43%, 72.67%);
+  --sable-success-main-active: hsl(353, 67.85%, 67.90%);
+  --sable-success-main-line: hsl(353, 66.28%, 63.68%);
+  --sable-success-on-main: hsl(353, 39.45%, 15.27%);
+  --sable-success-container: hsl(353, 47.34%, 23.83%);
+  --sable-success-container-hover: hsl(353, 47.34%, 27.62%);
+  --sable-success-container-active: hsl(353, 47.34%, 31.41%);
+  --sable-success-container-line: hsl(353, 48.92%, 35.20%);
+  --sable-success-on-container: hsl(353, 78.9%, 97.25%);
+
+  /* --- Warning --- */
+  --sable-warn-main: hsl(353, 100%, 77.54%);
+  --sable-warn-main-hover: hsl(353, 100%, 72.67%);
+  --sable-warn-main-active: hsl(353, 100%, 70.07%);
+  --sable-warn-main-line: hsl(353, 100%, 67.58%);
+  --sable-warn-on-main: hsl(353, 63.12%, 18.52%);
+  --sable-warn-container: hsl(353, 63.12%, 28.27%);
+  --sable-warn-container-hover: hsl(353, 61.54%, 32.71%);
+  --sable-warn-container-active: hsl(353, 59.96%, 37.15%);
+  --sable-warn-container-line: hsl(353, 59.96%, 41.59%);
+  --sable-warn-on-container: hsl(353, 100%, 99.20%);
+
+  /* --- Critical --- */
+  --sable-crit-main: hsl(353, 100%, 73.10%);
+  --sable-crit-main-hover: hsl(353, 100%, 68.34%);
+  --sable-crit-main-active: hsl(353, 100%, 66.50%);
+  --sable-crit-main-line: hsl(353, 100%, 64.55%);
+  --sable-crit-on-main: hsl(353, 55.23%, 19.06%);
+  --sable-crit-container: hsl(353, 55.23%, 28.92%);
+  --sable-crit-container-hover: hsl(353, 55.23%, 33.14%);
+  --sable-crit-container-active: hsl(353, 53.65%, 37.36%);
+  --sable-crit-container-line: hsl(353, 52.07%, 41.59%);
+  --sable-crit-on-container: hsl(353, 100%, 98.77%);
+
+  /* --- Other --- */
+  --sable-focus-ring: hsla(225, 89.95%, 84.47%, 0.5);
+  --sable-shadow: hsla(0, 0%, 0%, 0.5);
+  --sable-overlay: hsla(207, 34.72%, 12.56%, 0.85);
+}
+
+/* --- Left Panel Buttons --- */
+/* Animated Hover Color Transition */
+body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"] {
+  position: relative;
+  background-color: hsl(205, 33.14%, 16.14%);
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+  isolation: isolate;
+}
+
+body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: hsl(353, 63.12%, 28.27%);
+  transform: scale(0);
+  transform-origin: top left;
+  transition: transform 2.3s ease-out;
+  z-index: -1;
+}
+
+body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"] {
+  position: relative;
+  background-color: hsl(209, 37.34%, 12.5%); /* Base Color */
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200%;
+  height: 200%;
+  border-radius: 50%;
+  background-color: hsl(353, 63.12%, 28.27%);
+  transform: scale(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+  z-index: -1;
+}
+
+body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]:hover::before {
+  transform: scale(2);
+}
