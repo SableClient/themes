@@ -8,45 +8,46 @@ contrast: low
 tags: dark, ocean, red bleed
 fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/shark-deep-blue.sable.css
 */
-@font-face {
-  font-family: 'Twemoji';
-  src: url('https://raw.githubusercontent.com/SableClient/Sable/dev/public/font/Twemoji.Mozilla.v15.1.0.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/SableClient/Sable/dev/public/font/Twemoji.Mozilla.v15.1.0.ttf') format('truetype');
-  font-display: swap;
-}
 
 @font-face {
   font-family: 'Rajdhani';
   font-weight: 300; /* light */
-  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Light.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Rajdhani/Rajdhani-Light.ttf') format('truetype');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Rajdhani';
   font-weight: 400; /* regular */
-  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Regular.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Rajdhani/Rajdhani-Regular.ttf') format('truetype');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Rajdhani';
   font-weight: 500; /* medium */
-  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Medium.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Rajdhani/Rajdhani-Medium.ttf') format('truetype');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Rajdhani';
   font-weight: 600; /* semi‑bold */
-  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-SemiBold.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Rajdhani/Rajdhani-SemiBold.ttf') format('truetype');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Rajdhani';
   font-weight: 700; /* bold */
-  src: url('https://raw.githubusercontent.com/SableClient/themes/main/themes/fonts/Rajdhani/Rajdhani-Bold.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Rajdhani/Rajdhani-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Twemoji';
+  src: url('https://raw.githubusercontent.com/SableClient/Sable/dev/public/font/Twemoji.Mozilla.v15.1.0.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/SableClient/Sable/dev/public/font/Twemoji.Mozilla.v15.1.0.ttf') format('truetype');
   font-display: swap;
 }
 
