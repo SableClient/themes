@@ -125,6 +125,14 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/calm-buttons.sable.css"
     },
     {
+      "basename": "clear-sable-font",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/clear-sable-font.sable.css"
+    },
+    {
+      "basename": "clear-theme-font",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/clear-theme-font.sable.css"
+    },
+    {
       "basename": "grayscale-avatars",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/grayscale-avatars.sable.css"
     },
