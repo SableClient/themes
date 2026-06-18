@@ -2,12 +2,12 @@
 @sable-tweak
 id: clear-theme-font
 name: Clear Theme Font
-description: Remove custom theme font where applicable.
+description: Remove custom theme font where applicable
 author: userspring
 tags: global, font
 */
 
 body.sable-remote-theme,
 body.sable-remote-theme * {
-  font-family: Nunito Variable, system-ui, Twemoji, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  font-family: 'Nunito Variable', 'Twemoji', system-ui, -apple-system, sans-serif !important;
 }

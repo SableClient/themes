@@ -2,12 +2,12 @@
 @sable-tweak
 id: clear-sable-font
 name: Clear Sable Font
-description: Use default system/browser font.
+description: Use default system/browser font
 author: userspring
 tags: global, font
 */
 
 body.sable-remote-theme,
 body.sable-remote-theme * {
-  font-family: system-ui, Twemoji, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  font-family: 'Twemoji', system-ui, -apple-system, sans-serif !important;
 }

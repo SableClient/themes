@@ -5,7 +5,7 @@ name: Shark Deep Blue
 author: userspring
 kind: dark
 contrast: low
-tags: dark, ocean, red bleed
+tags: ocean, red bleed
 fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/shark-deep-blue.sable.css
 */
 
@@ -44,15 +44,8 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/s
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'Twemoji';
-  src: url('https://raw.githubusercontent.com/SableClient/Sable/dev/public/font/Twemoji.Mozilla.v15.1.0.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/SableClient/Sable/dev/public/font/Twemoji.Mozilla.v15.1.0.ttf') format('truetype');
-  font-display: swap;
-}
-
 body.sable-remote-theme {
-  font-family: 'Rajdhani', serif, 'Twemoji', system-ui;
+  font-family: 'Rajdhani', 'Twemoji', 'Nunito Variable', system-ui, -apple-system, sans-serif;
 
   /* --- Background --- */
   --sable-bg-container: hsl(207, 34.72%, 12.56%);
