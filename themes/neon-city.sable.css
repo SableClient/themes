@@ -13,14 +13,14 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/n
 
   /* Center Box Gradient */
 body.sable-remote-theme [class*="ContainerColor_ContainerColor_variant_Surface"] {
-  --center-grad: linear-gradient(to top, hsl(300, 100%, 6%) 20%, hsl(300, 100%, 2%) 40%) fixed;
+  --center-grad: linear-gradient(to top, hsl(300, 100%, 5.5%) 20%, hsl(300, 100%, 2%) 40%) fixed;
   background: var(--center-grad);
 }
 
 body.sable-remote-theme {
 
   /* Side Panels Gradient */
-  --sides-grad: linear-gradient(to top, hsl(300, 100%, 8%) 20%, hsl(300, 100%, 2%) 40%) fixed;
+  --sides-grad: linear-gradient(to top, hsl(300, 100%, 7.5%) 20%, hsl(300, 100%, 2%) 40%) fixed;
   background: var(--sides-grad);
 
   /* Translucence - Don't add new vars */
