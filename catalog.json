@@ -94,6 +94,16 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/light.sable.css"
     },
     {
+      "basename": "midnight-fairy",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/midnight-fairy.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/midnight-fairy.sable.css"
+    },
+    {
+      "basename": "neon-city",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city.sable.css"
+    },
+    {
       "basename": "rose-pine",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine.sable.css"
@@ -143,6 +153,10 @@
     {
       "basename": "rounded",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/rounded.sable.css"
+    },
+    {
+      "basename": "solid-colors",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/solid-colors.sable.css"
     },
     {
       "basename": "square-avatars",
