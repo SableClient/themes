@@ -1,0 +1,20 @@
+/*
+@sable-theme
+id: midnight-fairy
+name: Midnight Fairy
+author: userspring
+kind: dark
+contrast: low
+tags: gradient, purple, violet blue, two-tone
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/midnight-fairy.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: linear-gradient(to left, hsl(250, 40%, 28%), hsl(225, 40%, 25%));
+  --sable-bg-on-container: hsl(345, 30%, 88%);
+  --sable-surface-container: hsl(230, 35%, 33%);
+  --sable-surface-container-line: hsl(270, 25%, 30.94%);
+  --sable-surface-on-container: hsl(345, 25%, 92%);
+  --sable-primary-main: hsl(270, 25%, 34%);
+  --sable-primary-on-main: hsl(270, 12.5%, 85%);
+}

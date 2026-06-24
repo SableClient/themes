@@ -1,0 +1,124 @@
+/*
+@sable-theme
+id: midnight-fairy
+name: Midnight Fairy
+author: userspring
+kind: dark
+contrast: low
+tags: gradient, purple, violet blue, two-tone
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/midnight-fairy.sable.css
+*/
+
+/* Comment: Keep --sides-grad for the "Solid Colors" tweak to work */
+
+  /* Center Box Gradient */
+body.sable-remote-theme [class*="ContainerColor_ContainerColor_variant_Surface"] {
+  --center-grad: radial-gradient(ellipse at right, hsl(250, 40%, 28%) 20%, hsl(210, 40%, 20%)) fixed;
+  background: var(--center-grad);
+}
+
+body.sable-remote-theme {
+
+  /* Side Panels Gradient */
+  --sides-grad: radial-gradient(ellipse at right, hsl(300, 100%, 30%), hsl(0, 0%, 0%)) fixed;
+  background: var(--sides-grad);
+
+  /* Background */
+  --sable-bg-container: hsla(270, 25%, 20.4%, 0.7); /*!*/
+  --sable-bg-container-hover: hsl(270, 25%, 22.44%);
+  --sable-bg-container-active: hsl(270, 25%, 24.48%);
+  --sable-bg-container-line: hsl(270, 25%, 26.52%);
+  --sable-bg-on-container: hsl(345, 30%, 88%);
+
+  /* Surface */
+  --sable-surface-container: hsl(230, 35%, 33%);
+  --sable-surface-container-hover: hsl(250, 25%, 30.18%);
+  --sable-surface-container-active: hsl(270, 25%, 28.56%);
+  --sable-surface-container-line: hsl(270, 25%, 30.94%);
+  --sable-surface-on-container: hsl(345, 25%, 92%);
+
+  /* Surface Variant */
+  --sable-surface-var-container: hsl(230, 40%, 30%);
+  --sable-surface-var-container-hover: hsl(270, 30%, 18.7%);
+  --sable-surface-var-container-active: hsl(270, 30%, 20.4%);
+  --sable-surface-var-container-line: hsl(270, 30%, 35%);
+  --sable-surface-var-on-container: hsl(270, 40%, 90%);
+
+  /* Primary */
+  --sable-primary-main: hsl(270, 25%, 34%);
+  --sable-primary-main-hover: hsl(270, 25%, 37.4%);
+  --sable-primary-main-active: hsl(270, 25%, 40.8%);
+  --sable-primary-main-line: hsl(270, 25%, 44.2%);
+  --sable-primary-on-main: hsl(270, 12.5%, 85%);
+  --sable-primary-container: hsl(270, 22%, 58%);
+  --sable-primary-container-hover: hsl(250, 25%, 40.18%);
+  --sable-primary-container-active: hsl(270, 20%, 53.04%);
+  --sable-primary-container-line: hsl(270, 20%, 57.46%);
+  --sable-primary-on-container: hsl(345, 25%, 92%);
+
+  /* Secondary */
+  --sable-sec-main: hsl(230, 32%, 65%);
+  --sable-sec-main-hover: hsl(230, 50%, 88%);
+  --sable-sec-main-active: hsl(230, 50%, 96%);
+  --sable-sec-main-line: hsl(230, 50%, 100%);
+  --sable-sec-on-main: hsl(230, 50%, 24%);
+  --sable-sec-container: hsl(230, 35%, 50%);
+  --sable-sec-container-hover: hsl(230, 35%, 44%);
+  --sable-sec-container-active: hsl(230, 35%, 48%);
+  --sable-sec-container-line: hsl(230, 35%, 52%);
+  --sable-sec-on-container: hsl(230, 50%, 96%);
+
+  /* Success */
+  --sable-success-main: hsl(345, 46%, 73%);
+  --sable-success-main-hover: hsl(345, 46%, 80.3%);
+  --sable-success-main-active: hsl(345, 46%, 87.6%);
+  --sable-success-main-line: hsl(345, 46%, 94.9%);
+  --sable-success-on-main: hsl(345, 23%, 14.6%);
+  --sable-success-container: hsl(345, 27.6%, 21.9%);
+  --sable-success-container-hover: hsl(345, 27.6%, 24.09%);
+  --sable-success-container-active: hsl(345, 27.6%, 26.28%);
+  --sable-success-container-line: hsl(345, 27.6%, 28.47%);
+  --sable-success-on-container: hsl(345, 46%, 87.6%);
+
+  /* Warning */
+  --sable-warn-main: hsl(0, 100%, 100%);
+  --sable-warn-main-hover: hsl(0, 50%, 100%);
+  --sable-warn-main-active: hsl(0, 50%, 100%);
+  --sable-warn-main-line: hsl(0, 50%, 100%);
+  --sable-warn-on-main: hsl(0, 25%, 30%);
+  --sable-warn-container: hsl(345, 30%, 45%);
+  --sable-warn-container-hover: hsl(345, 30%, 49.5%);
+  --sable-warn-container-active: hsl(345, 30%, 54%);
+  --sable-warn-container-line: hsl(345, 30%, 58.5%);
+  --sable-warn-on-container: hsl(345, 50%, 100%);
+
+  /* Critical */
+  --sable-crit-main: hsl(345, 73%, 68%);
+  --sable-crit-main-hover: hsl(345, 73%, 74.8%);
+  --sable-crit-main-active: hsl(345, 73%, 81.6%);
+  --sable-crit-main-line: hsl(345, 73%, 88.4%);
+  --sable-crit-on-main: hsl(345, 36.5%, 13.6%);
+  --sable-crit-container: hsl(345, 43.8%, 20.4%);
+  --sable-crit-container-hover: hsl(345, 43.8%, 22.44%);
+  --sable-crit-container-active: hsl(345, 43.8%, 24.48%);
+  --sable-crit-container-line: hsl(345, 43.8%, 26.52%);
+  --sable-crit-on-container: hsl(345, 73%, 81.6%);
+
+  /* Other */
+  --sable-focus-ring: hsla(270, 100%, 75%, 0.8);
+  --sable-shadow: hsla(270, 100%, 70%, 0.2);
+  --sable-overlay: hsla(270, 55%, 12%, 0.9);
+}
+
+/* Left Panel Buttons */
+body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]:hover {
+  background-color: hsl(270, 25%, 30.6%);
+}
+
+/* Tip - Rooms & Settings Left Panel Gradient Zone, useful for zero Translucence:
+
+body.sable-remote-theme [data-sentry-component="PageNav"][data-sentry-element="Box"] {
+background: linear-gradient(to top, hsla(200, 100%, 8%, 0.85) 20%, hsla(300, 100%, 2%, 0.85) 40%) fixed;
+}
+or like we did, set --sable-bg-container alpha to 0.7 and --side-grad saturation to 100% for low translucence
+*/

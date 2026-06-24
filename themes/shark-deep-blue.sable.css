@@ -93,7 +93,7 @@ body.sable-remote-theme {
   --sable-sec-on-container: hsl(203, 78.9%, 98.99%);
 
   /* --- Success --- */
-  --sable-success-main: hsl(206, 72.59%, 79.17%);
+  --sable-success-main: hsl(353, 72.59%, 79.17%);
   --sable-success-main-hover: hsl(353, 69.43%, 72.67%);
   --sable-success-main-active: hsl(353, 67.85%, 67.90%);
   --sable-success-main-line: hsl(353, 66.28%, 63.68%);

@@ -1,0 +1,27 @@
+/*
+@sable-tweak
+id: solid-colors
+name: Solid Colors
+description: Remove transparency effects
+author: userspring
+tags: global, translucence
+*/
+
+/* Remove opacity on elements */
+body.sable-remote-theme,
+body.sable-remote-theme * {
+  --softest-alpha: 1 !important;
+  --softer-alpha: 1 !important;
+  --soft-alpha: 1 !important;
+  --hard-alpha: 1 !important;
+  --harder-alpha: 1 !important;
+  --hardest-alpha: 1 !important;
+}
+
+/* Fix for gradient themes - Settings Left Panel*/
+body.sable-remote-theme [data-sentry-component="PageNav"][data-sentry-element="Box"] {
+  background: linear-gradient(to top, var(--sable-bg-container), var(--sable-bg-container)), var(--sides-grad) !important;
+}
+
+
+/* Tip - Check 'Neon City' theme implementation*/

@@ -68,11 +68,11 @@ body.sable-remote-theme {
   --sable-success-on-container: hsl(189, 46%, 87.6%);
 
   /* Warning */
-  --sable-warn-main: hsl(40, 100%, 100%);
-  --sable-warn-main-hover: hsl(40, 50%, 100%);
-  --sable-warn-main-active: hsl(40, 50%, 100%);
-  --sable-warn-main-line: hsl(40, 50%, 100%);
-  --sable-warn-on-main: hsl(40, 25%, 30%);
+  --sable-warn-main: hsl(0, 100%, 100%);
+  --sable-warn-main-hover: hsl(0, 50%, 100%);
+  --sable-warn-main-active: hsl(0, 50%, 100%);
+  --sable-warn-main-line: hsl(0, 50%, 100%);
+  --sable-warn-on-main: hsl(0, 25%, 30%);
   --sable-warn-container: hsl(40, 30%, 45%);
   --sable-warn-container-hover: hsl(40, 30%, 49.5%);
   --sable-warn-container-active: hsl(40, 30%, 54%);
