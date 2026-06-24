@@ -1,0 +1,140 @@
+/*
+@sable-theme
+id: neon-city-light
+name: Neon City Light
+author: original by userspring, modified by swirly
+kind: light
+contrast: high
+tags: gradient, purple, glow, translucent
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-light.sable.css
+*/
+
+/* Comment: Keep alpha vars & --sides-grad for the "Solid Colors" tweak to work */
+
+  /* Center Box Gradient */
+body.sable-remote-theme [class*="ContainerColor_ContainerColor_variant_Surface"] {
+  --center-grad: linear-gradient(to top, hsl(300, 100%, 94.5%) 20%, hsl(300, 100%, 98%) 40%) fixed;
+  background: var(--center-grad);
+}
+
+body.sable-remote-theme {
+
+  /* Side Panels Gradient */
+  --sides-grad: linear-gradient(to top, hsl(300, 100%, 92.5%) 20%, hsl(300, 100%, 98%) 40%) fixed;
+  background: var(--sides-grad);
+
+  /* Translucence - Don't add new vars */
+  --softest-alpha: 0;
+  --softer-alpha: 0.4;
+  --soft-alpha: 0.67;
+  --hard-alpha: 0.85;
+  --harder-alpha: meow;
+  --hardest-alpha: 1;
+
+  /* Background */
+  --sable-bg-container: hsla(300, 50%, 94%, 0.05); /*!*/
+  --sable-bg-container-hover: hsla(270, 25%, 77.56%, var(--hard-alpha));
+  --sable-bg-container-active: hsla(270, 25%, 75.52%, var(--hard-alpha));
+  --sable-bg-container-line: hsla(270, 45%, 73.48%, var(--hard-alpha));
+  --sable-bg-on-container: hsla(270, 20.5%, 10%, var(--hard-alpha));
+
+  /* Surface */
+  --sable-surface-container: hsla(300, 30%, 95%, var(--soft-alpha)); /*!*/
+  --sable-surface-container-hover: hsla(300, 25%, 89%, var(--hard-alpha));
+  --sable-surface-container-active: hsla(270, 25%, 71.44%, var(--hard-alpha));
+  --sable-surface-container-line: hsla(270, 35%, 69.06%, var(--hard-alpha));
+  --sable-surface-on-container: hsla(270, 0%, 5%, var(--hardest-alpha));
+
+  /* Surface Variant */
+  --sable-surface-var-container: hsla(270, 0%, 100%, var(--softer-alpha)); /*!*/
+  --sable-surface-var-container-hover: hsla(270, 30%, 81.3%, var(--hard-alpha));
+  --sable-surface-var-container-active: hsla(270, 30%, 79.6%, var(--hard-alpha));
+  --sable-surface-var-container-line: hsla(270, 35%, 58%, var(--hard-alpha));
+  --sable-surface-var-on-container: hsla(270, 40%, 10%, var(--hard-alpha));
+
+  /* Primary */
+  --sable-primary-main: hsla(270, 25%, 66%, var(--hard-alpha));
+  --sable-primary-main-hover: hsla(270, 25%, 62.6%, var(--hard-alpha));
+  --sable-primary-main-active: hsla(270, 25%, 59.2%, var(--hard-alpha));
+  --sable-primary-main-line: hsla(270, 35%, 55.8%, var(--hard-alpha));
+  --sable-primary-on-main: hsla(270, 12.5%, 15%, var(--hard-alpha));
+  --sable-primary-container: hsla(270, 20%, 80%, var(--hard-alpha));
+  --sable-primary-container-hover: hsla(272, 43.8%, 77.56%, var(--hard-alpha));
+  --sable-primary-container-active: hsla(270, 20%, 46.96%, var(--hard-alpha));
+  --sable-primary-container-line: hsla(270, 30%, 42.54%, var(--hard-alpha));
+  --sable-primary-on-container: hsla(272, 73%, 18.4%, var(--hard-alpha));
+
+  /* Secondary */
+  --sable-sec-main: hsla(270, 35%, 36%, var(--hard-alpha));
+  --sable-sec-main-hover: hsla(270, 50%, 12%, var(--hard-alpha));
+  --sable-sec-main-active: hsla(270, 50%, 4%, var(--hard-alpha));
+  --sable-sec-main-line: hsla(270, 50%, 0%, var(--hard-alpha));
+  --sable-sec-on-main: hsla(270, 50%, 100%, var(--hard-alpha));
+  --sable-sec-container: hsla(270, 35%, 95%, var(--hard-alpha));
+  --sable-sec-container-hover: hsla(270, 35%, 80%, var(--hard-alpha));
+  --sable-sec-container-active: hsla(270, 35%, 52%, var(--hard-alpha));
+  --sable-sec-container-line: hsla(270, 35%, 48%, var(--hard-alpha));
+  --sable-sec-on-container: hsla(270, 50%, 4%, var(--hard-alpha));
+
+  /* Success */
+  --sable-success-main: hsla(271, 46%, 27%, var(--hard-alpha));
+  --sable-success-main-hover: hsla(271, 46%, 19.7%, var(--hard-alpha));
+  --sable-success-main-active: hsla(271, 46%, 12.4%, var(--hard-alpha));
+  --sable-success-main-line: hsla(271, 46%, 5.1%, var(--hard-alpha));
+  --sable-success-on-main: hsla(271, 23%, 85.4%, var(--hard-alpha));
+  --sable-success-container: hsla(271, 27.6%, 78.1%, var(--hard-alpha));
+  --sable-success-container-hover: hsla(271, 27.6%, 75.91%, var(--hard-alpha));
+  --sable-success-container-active: hsla(271, 27.6%, 73.72%, var(--hard-alpha));
+  --sable-success-container-line: hsla(271, 37.6%, 71.53%, var(--hard-alpha));
+  --sable-success-on-container: hsla(271, 46%, 12.4%, var(--hard-alpha));
+
+  /* Warning */
+  --sable-warn-main: hsla(0, 100%, 0%, var(--hard-alpha));
+  --sable-warn-main-hover: hsla(0, 50%, 0%, var(--hard-alpha));
+  --sable-warn-main-active: hsla(0, 50%, 0%, var(--hard-alpha));
+  --sable-warn-main-line: hsla(0, 50%, 0%, var(--hard-alpha));
+  --sable-warn-on-main: hsla(0, 25%, 70%, var(--hard-alpha));
+  --sable-warn-container: hsla(270, 30%, 55%, var(--hard-alpha));
+  --sable-warn-container-hover: hsla(270, 30%, 50.5%, var(--hard-alpha));
+  --sable-warn-container-active: hsla(270, 30%, 46%, var(--hard-alpha));
+  --sable-warn-container-line: hsla(270, 35%, 41.5%, var(--hard-alpha));
+  --sable-warn-on-container: hsla(270, 50%, 0%, var(--hard-alpha));
+
+  /* Critical */
+  --sable-crit-main: hsla(272, 73%, 32%, var(--hard-alpha));
+  --sable-crit-main-hover: hsla(272, 73%, 25.2%, var(--hard-alpha));
+  --sable-crit-main-active: hsla(272, 73%, 18.4%, var(--hard-alpha));
+  --sable-crit-main-line: hsla(272, 73%, 11.6%, var(--hard-alpha));
+  --sable-crit-on-main: hsla(272, 36.5%, 86.4%, var(--hard-alpha));
+  --sable-crit-container: hsla(272, 43.8%, 79.6%, var(--hard-alpha));
+  --sable-crit-container-hover: hsla(272, 43.8%, 77.56%, var(--hard-alpha));
+  --sable-crit-container-active: hsla(272, 43.8%, 75.52%, var(--hard-alpha));
+  --sable-crit-container-line: hsla(272, 43.8%, 73.48%, var(--hard-alpha));
+  --sable-crit-on-container: hsla(272, 73%, 18.4%, var(--hard-alpha));
+
+  /* Other */
+  --sable-focus-ring: hsla(270, 100%, 25%, 0.8);
+  --sable-shadow: hsla(270, 100%, 30%, 0.6);
+  --sable-overlay: hsla(270, 55%, 88%, 0.9);
+}
+
+/* Left Panel Buttons Shadow */
+body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]:hover {
+  box-shadow: 0 0 9px 1px hsla(270, 100%, 25%, 0.65);
+  transition: box-shadow 0.2s ease;
+}
+
+  /* Text Box Shadow */
+*:focus-visible {
+  box-shadow: 0 10px 15px -10px hsla(270, 50%, 50%, 0.6);
+  outline: none;
+}
+
+
+/* Tip - Rooms & Settings Left Panel Gradient Zone, useful for zero Translucence:
+
+body.sable-remote-theme [data-sentry-component="PageNav"][data-sentry-element="Box"] {
+background: linear-gradient(to top, hsla(200, 100%, 92%, 0.85) 20%, hsla(300, 100%, 98%, 0.85) 40%) fixed;
+}
+or set --sable-bg-container alpha to 0.7 and --side-grad saturation to 100% for low translucence
+*/
