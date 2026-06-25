@@ -45,12 +45,12 @@ body.sable-remote-theme {
   --sable-surface-var-on-container: hsl(270, 40%, 90%);
 
   /* Primary */
-  --sable-primary-main: hsl(270, 25%, 34%);
+  --sable-primary-main: hsl(270, 45%, 74%);
   --sable-primary-main-hover: hsl(270, 25%, 37.4%);
   --sable-primary-main-active: hsl(270, 25%, 40.8%);
   --sable-primary-main-line: hsl(270, 25%, 44.2%);
-  --sable-primary-on-main: hsl(270, 12.5%, 85%);
-  --sable-primary-container: hsl(270, 22%, 58%);
+  --sable-primary-on-main: hsl(270, 32.5%, 31%);
+  --sable-primary-container: hsl(270, 25%, 45%);
   --sable-primary-container-hover: hsl(250, 25%, 40.18%);
   --sable-primary-container-active: hsl(270, 20%, 53.04%);
   --sable-primary-container-line: hsl(270, 20%, 57.46%);
@@ -69,16 +69,16 @@ body.sable-remote-theme {
   --sable-sec-on-container: hsl(230, 50%, 96%);
 
   /* Success */
-  --sable-success-main: hsl(345, 46%, 73%);
-  --sable-success-main-hover: hsl(345, 46%, 80.3%);
-  --sable-success-main-active: hsl(345, 46%, 87.6%);
-  --sable-success-main-line: hsl(345, 46%, 94.9%);
-  --sable-success-on-main: hsl(345, 23%, 14.6%);
-  --sable-success-container: hsl(345, 27.6%, 21.9%);
-  --sable-success-container-hover: hsl(345, 27.6%, 24.09%);
-  --sable-success-container-active: hsl(345, 27.6%, 26.28%);
-  --sable-success-container-line: hsl(345, 27.6%, 28.47%);
-  --sable-success-on-container: hsl(345, 46%, 87.6%);
+  --sable-success-main: hsl(270, 46%, 73%);
+  --sable-success-main-hover: hsl(270, 46%, 80.3%);
+  --sable-success-main-active: hsl(270, 46%, 87.6%);
+  --sable-success-main-line: hsl(270, 46%, 94.9%);
+  --sable-success-on-main: hsl(270, 23%, 14.6%);
+  --sable-success-container: hsl(270, 27.6%, 21.9%);
+  --sable-success-container-hover: hsl(270, 27.6%, 24.09%);
+  --sable-success-container-active: hsl(270, 27.6%, 26.28%);
+  --sable-success-container-line: hsl(270, 27.6%, 28.47%);
+  --sable-success-on-container: hsl(270, 46%, 87.6%);
 
   /* Warning */
   --sable-warn-main: hsl(0, 100%, 100%);
@@ -93,7 +93,7 @@ body.sable-remote-theme {
   --sable-warn-on-container: hsl(345, 50%, 100%);
 
   /* Critical */
-  --sable-crit-main: hsl(345, 73%, 68%);
+  --sable-crit-main: hsl(345, 40%, 68%);
   --sable-crit-main-hover: hsl(345, 73%, 74.8%);
   --sable-crit-main-active: hsl(345, 73%, 81.6%);
   --sable-crit-main-line: hsl(345, 73%, 88.4%);
