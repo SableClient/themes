@@ -104,6 +104,11 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city.sable.css"
     },
     {
+      "basename": "neon-city-light",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-light.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city-light.sable.css"
+    },
+    {
       "basename": "rose-pine",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine.sable.css"
