@@ -98,7 +98,7 @@ body.sable-remote-theme {
   --sable-crit-main-active: hsl(345, 73%, 81.6%);
   --sable-crit-main-line: hsl(345, 73%, 88.4%);
   --sable-crit-on-main: hsl(345, 36.5%, 13.6%);
-  --sable-crit-container: hsl(345, 43.8%, 20.4%);
+  --sable-crit-container: hsl(345, 43.8%, 30.4%);
   --sable-crit-container-hover: hsl(345, 43.8%, 22.44%);
   --sable-crit-container-active: hsl(345, 43.8%, 24.48%);
   --sable-crit-container-line: hsl(345, 43.8%, 26.52%);
