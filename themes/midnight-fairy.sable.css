@@ -31,7 +31,7 @@ body.sable-remote-theme {
   --sable-bg-on-container: hsl(345, 30%, 88%);
 
   /* Surface */
-  --sable-surface-container: hsl(230, 35%, 33%);
+  --sable-surface-container: hsl(230, 35%, 35%);
   --sable-surface-container-hover: hsl(250, 25%, 30.18%);
   --sable-surface-container-active: hsl(270, 25%, 28.56%);
   --sable-surface-container-line: hsl(270, 25%, 30.94%);
