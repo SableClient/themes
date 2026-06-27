@@ -10,11 +10,11 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/n
 */
 
 .sable-theme-preview {
-  --sable-bg-container: linear-gradient(to top, hsl(359, 100%, 7.5%), hsl(359, 100%, 2%));
-  --sable-bg-on-container: hsla(270, 20.5%, 90%, 0.85);
-  --sable-surface-container: hsla(300, 30%, 5%, 0.67);
-  --sable-surface-container-line: hsla(270, 35%, 30.94%, 0.85);
-  --sable-surface-on-container: hsla(270, 0%, 95%, 1);
-  --sable-primary-main: hsla(270, 25%, 34%, 0.85);
-  --sable-primary-on-main: hsla(270, 12.5%, 85%, 0.85);
+  --sable-bg-container: linear-gradient(to top, hsl(359, 100%, 9%), hsl(359, 100%, 2%));
+  --sable-bg-on-container: hsla(359, 20.5%, 90%, 0.85);
+  --sable-surface-container: hsla(359, 30%, 5%, 0.67);
+  --sable-surface-container-line: hsla(359, 35%, 30.94%, 0.85);
+  --sable-surface-on-container: hsla(359, 0%, 95%, 1);
+  --sable-primary-main: hsla(359, 25%, 34%, 0.85);
+  --sable-primary-on-main: hsla(359, 12.5%, 85%, 0.85);
 }

@@ -12,7 +12,7 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/m
 /* Comment: Keep --sides-grad for the "Solid Colors" tweak to work */
 
   /* Center Box Gradient */
-body.sable-remote-theme [class*="ContainerColor_ContainerColor_variant_Surface"] {
+body.sable-remote-theme :is([class*="RoomTimeline"], header[class*="ContainerColor_ContainerColor_variant_Surface"], [style*="padding: 0 var(--_164xfge1u);"]) {
   --center-grad: radial-gradient(ellipse at right, hsl(250, 40%, 28%) 20%, hsl(210, 40%, 20%)) fixed;
   background: var(--center-grad);
 }
@@ -31,7 +31,7 @@ body.sable-remote-theme {
   --sable-bg-on-container: hsl(345, 30%, 88%);
 
   /* Surface */
-  --sable-surface-container: hsl(230, 35%, 33%);
+  --sable-surface-container: hsl(230, 35%, 35%);
   --sable-surface-container-hover: hsl(250, 25%, 30.18%);
   --sable-surface-container-active: hsl(270, 25%, 28.56%);
   --sable-surface-container-line: hsl(270, 25%, 30.94%);
@@ -69,16 +69,16 @@ body.sable-remote-theme {
   --sable-sec-on-container: hsl(230, 50%, 96%);
 
   /* Success */
-  --sable-success-main: hsl(270, 46%, 73%);
-  --sable-success-main-hover: hsl(270, 46%, 80.3%);
-  --sable-success-main-active: hsl(270, 46%, 87.6%);
-  --sable-success-main-line: hsl(270, 46%, 94.9%);
-  --sable-success-on-main: hsl(270, 23%, 14.6%);
-  --sable-success-container: hsl(270, 27.6%, 21.9%);
-  --sable-success-container-hover: hsl(270, 27.6%, 24.09%);
-  --sable-success-container-active: hsl(270, 27.6%, 26.28%);
-  --sable-success-container-line: hsl(270, 27.6%, 28.47%);
-  --sable-success-on-container: hsl(270, 46%, 87.6%);
+  --sable-success-main: hsl(345, 46%, 73%);
+  --sable-success-main-hover: hsl(345, 46%, 80.3%);
+  --sable-success-main-active: hsl(345, 46%, 87.6%);
+  --sable-success-main-line: hsl(345, 46%, 94.9%);
+  --sable-success-on-main: hsl(345, 23%, 24.6%);
+  --sable-success-container: hsl(345, 46%, 73%);
+  --sable-success-container-hover: hsl(345, 46%, 80.3%);
+  --sable-success-container-active: hsl(345, 46%, 73%);
+  --sable-success-container-line: hsl(345, 46%, 77%);
+  --sable-success-on-container: hsl(345, 23%, 24.6%);
 
   /* Warning */
   --sable-warn-main: hsl(0, 100%, 100%);
@@ -98,7 +98,7 @@ body.sable-remote-theme {
   --sable-crit-main-active: hsl(345, 73%, 81.6%);
   --sable-crit-main-line: hsl(345, 73%, 88.4%);
   --sable-crit-on-main: hsl(345, 36.5%, 13.6%);
-  --sable-crit-container: hsl(345, 43.8%, 20.4%);
+  --sable-crit-container: hsl(345, 43.8%, 30.4%);
   --sable-crit-container-hover: hsl(345, 43.8%, 22.44%);
   --sable-crit-container-active: hsl(345, 43.8%, 24.48%);
   --sable-crit-container-line: hsl(345, 43.8%, 26.52%);

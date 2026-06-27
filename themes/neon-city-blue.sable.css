@@ -12,7 +12,7 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/n
 /* Comment: Keep alpha vars & --sides-grad for the "Solid Colors" tweak to work */
 
   /* Center Box Gradient */
-body.sable-remote-theme [class*="ContainerColor_ContainerColor_variant_Surface"] {
+body.sable-remote-theme :is([class*="RoomTimeline"], header[class*="ContainerColor_ContainerColor_variant_Surface"], [style*="padding: 0 var(--_164xfge1u);"]) {
   --center-grad: linear-gradient(to top, hsl(220, 100%, 6.5%) 20%, hsl(220, 100%, 2%) 40%) fixed;
   background: var(--center-grad);
 }
@@ -53,12 +53,12 @@ body.sable-remote-theme {
   --sable-surface-var-on-container: hsla(221, 40%, 90%, var(--hard-alpha));
 
   /* Primary */
- /*misc & toggle⚠️*/--sable-primary-main: hsla(221, 45%, 74%, var(--hard-alpha));
+  --sable-primary-main: hsla(221, 45%, 74%, var(--hard-alpha));
   --sable-primary-main-hover: hsla(221, 25%, 37.4%, var(--hard-alpha));
   --sable-primary-main-active: hsla(221, 25%, 40.8%, var(--hard-alpha));
   --sable-primary-main-line: hsla(221, 35%, 44.2%, var(--hard-alpha));
-  /*misc & toggle⚠️*/--sable-primary-on-main: hsla(221, 52.5%, 14%, var(--hardest-alpha));
-  /*react light⚠️*/--sable-primary-container: hsla(221, 20%, 26%, var(--hard-alpha));
+  --sable-primary-on-main: hsla(221, 52.5%, 14%, var(--hardest-alpha));
+  --sable-primary-container: hsla(221, 20%, 26%, var(--hard-alpha));
   --sable-primary-container-hover: hsla(221, 43.8%, 22.44%, var(--hard-alpha));
   --sable-primary-container-active: hsla(221, 20%, 53.04%, var(--hard-alpha));
   --sable-primary-container-line: hsla(221, 30%, 57.46%, var(--hard-alpha));
@@ -69,8 +69,8 @@ body.sable-remote-theme {
   --sable-sec-main-hover: hsla(221, 50%, 88%, var(--hard-alpha));
   --sable-sec-main-active: hsla(221, 50%, 96%, var(--hard-alpha));
   --sable-sec-main-line: hsla(221, 50%, 100%, var(--hard-alpha));
-    /*dot number⚠️*/--sable-sec-on-main: hsla(221, 50%, 14%, var(--hard-alpha));
-  /*account fields⚠️*/--sable-sec-container: hsla(221, 25%, 13%, var(--hard-alpha));
+  --sable-sec-on-main: hsla(221, 50%, 14%, var(--hard-alpha));
+  --sable-sec-container: hsla(221, 25%, 13%, var(--hard-alpha));
   --sable-sec-container-hover: hsla(221, 35%, 20%, var(--hard-alpha));
   --sable-sec-container-active: hsla(221, 35%, 48%, var(--hard-alpha));
   --sable-sec-container-line: hsla(221, 35%, 52%, var(--hard-alpha));
@@ -101,7 +101,6 @@ body.sable-remote-theme {
   --sable-warn-on-container: hsla(40, 50%, 100%, var(--hard-alpha));
 
   /* Critical */
-  /*red logout etc⚠️*/
   --sable-crit-main: hsla(0, 50%, 68%, var(--hard-alpha));
   --sable-crit-main-hover: hsla(0, 50%, 74.8%, var(--hard-alpha));
   --sable-crit-main-active: hsla(0, 50%, 81.6%, var(--hard-alpha));
