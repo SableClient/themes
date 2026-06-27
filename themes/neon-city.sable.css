@@ -12,7 +12,7 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/n
 /* Comment: Keep alpha vars & --sides-grad for the "Solid Colors" tweak to work */
 
   /* Center Box Gradient */
-body.sable-remote-theme :is([data-sentry-component="RoomTimeline"], [style*="padding: 0 var(--_164xfge1u);"], [data-sentry-component="RoomViewHeader"]) {
+body.sable-remote-theme :is([class*="RoomTimeline"], header[class*="ContainerColor_ContainerColor_variant_Surface"], [style*="padding: 0 var(--_164xfge1u);"]) {
   --center-grad: linear-gradient(to top, hsl(300, 100%, 5.5%) 20%, hsl(300, 100%, 2%) 40%) fixed;
   background: var(--center-grad);
 }
