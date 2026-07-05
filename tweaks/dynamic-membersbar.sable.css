@@ -1,0 +1,26 @@
+/*
+@sable-tweak
+id: dynamic-membersbar
+name: Dynamic MembersBar
+description: Expand collapsed right members list on hover.
+author: userspring
+tags: sidebar
+*/
+
+/* Minimum ini Size */
+body.sable-remote-theme [class*="MembersDrawer_MembersDrawer__10re0tb0"] {
+  width: 4rem !important;
+  transition: width 0.18s ease-in-out;
+}
+body.sable-remote-theme [class*="MembersDrawer_MembersDrawer__10re0tb0"] 
+[class*="_1rrvnjm8 _1mqalmd1 _1mqalmd0 _1rrvnjma _1rrvnjmi cpipac3"] {
+  height: 2.1rem !important;
+}
+
+/* Max hover Size */
+body.sable-remote-theme [class*="MembersDrawer_MembersDrawer__10re0tb0"]:hover,
+body.sable-remote-theme [class*="MembersDrawer_MembersDrawer__10re0tb0"]:has(
+  [class*="_1rrvnjm8 _1mqalmd1 _1mqalmd0 _1rrvnjma _1rrvnjmi cpipac3"]:focus-within
+) {
+  width: 14rem !important;
+}

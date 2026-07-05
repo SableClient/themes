@@ -1,0 +1,91 @@
+/*
+@sable-tweak
+id: dynamic-roomsbar
+name: Dynamic RoomsBar
+description: Expand collapsed left sidebars on hover.
+author: userspring
+tags: sidebar
+*/
+
+/* Minimum ini Size */
+body.sable-remote-theme :is([data-sentry-component="Space"], 
+  [data-sentry-component="Home"], [data-sentry-component="Direct"]) {
+  width: 3.9rem !important;
+  transition: width 0.2s ease-in-out;
+}
+/* Max hover Size */
+body.sable-remote-theme :is([data-sentry-component="Space"], 
+  [data-sentry-component="Home"], [data-sentry-component="Direct"], [class*=UserQuickTools]):hover {
+  width: 14.9375rem !important;
+}
+
+/* ini Room Icon Size */
+body.sable-remote-theme :is([data-sentry-component="Space"], 
+  [data-sentry-component="Home"], [data-sentry-component="Direct"]) 
+[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *:not([class*=AvatarPresenceBadge] *, [class*="RoomIconComposite"] *) {
+  --upscale:30.6px;
+  height: var(--upscale);
+  width: var(--upscale);
+  --display: grid;
+  --place: center;
+  display: var(--display);
+  place-items: var(--place);
+  transition: width 0.05s ease-in-out;
+}
+body.sable-remote-theme :is([data-sentry-component="Space"], 
+  [data-sentry-component="Home"], [data-sentry-component="Direct"]) 
+[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv4d prxiv41a prxiv41k prxiv41s"] 
+[data-sentry-element="Icon"] {
+  --upscale:22px;
+  height: var(--upscale) !important;
+  width: var(--upscale) !important;
+  transition: width 0.05s ease-in-out;
+}
+body.sable-remote-theme :is([data-sentry-component="Space"], 
+  [data-sentry-component="Home"], [data-sentry-component="Direct"])
+:is([class*=AvatarPresenceBadge], [class*="RoomIconComposite"]) {
+  --upscale: meow !important;
+}
+/* Hover Room Icon Size */
+body.sable-remote-theme :is([data-sentry-component="Space"], 
+  [data-sentry-component="Home"], [data-sentry-component="Direct"]):hover 
+[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *:not([class*=AvatarPresenceBadge], [class*="RoomIconComposite"]) {
+  --upscale: 24px !important;
+}
+body.sable-remote-theme :is([data-sentry-component="Space"], 
+  [data-sentry-component="Home"], [data-sentry-component="Direct"]):hover 
+[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv4d prxiv41a prxiv41k prxiv41s"] 
+[data-sentry-element="Icon"] {
+  --upscale: meow !important;
+}
+
+/* Bottom Bar */
+body.sable-remote-theme [class*=UserQuickTools] {
+  width: 4.09rem !important;
+  transition: width 0.05s ease-in-out !important;
+  [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41"] {
+  visibility: hidden;
+  transition: width 0.05s ease-in-out !important;}
+}
+/* Bottom Bar Hover */
+body.sable-remote-theme div [data-sentry-component="ClientLayout"]:has([class*="UserQuickTools"]:hover, [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv41t"]:hover) 
+[class*="UserQuickTools"] {
+  width: 19.05rem !important;
+[class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41"] {
+  visibility: visible !important;}
+}
+
+/* Extra Hovers */
+body.sable-remote-theme div [data-sentry-component="ClientLayout"]:has([class*="UserQuickTools"]:hover, [class*="Sidebar_Sidebar__vs60p50"]:hover) 
+:is([data-sentry-component="Space"], [data-sentry-component="Home"], [data-sentry-component="Direct"]) {
+  width: 14.9375rem !important;
+}
+body.sable-remote-theme div [data-sentry-component="ClientLayout"]:has([class*="UserQuickTools"]:hover, [class*="Sidebar_Sidebar__vs60p50"]:hover) 
+[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *:not([class*=AvatarPresenceBadge], [class*="RoomIconComposite"]) {
+  --upscale: 24px !important;
+}
+body.sable-remote-theme div [data-sentry-component="ClientLayout"]:has([class*="UserQuickTools"]:hover, [class*="Sidebar_Sidebar__vs60p50"]:hover) 
+[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv4d prxiv41a prxiv41k prxiv41s"] 
+[data-sentry-element="Icon"] {
+  --upscale: meow !important;
+}

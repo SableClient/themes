@@ -1,0 +1,78 @@
+/*
+@sable-tweak
+id: rounded-sable
+name: Rounded Sable
+description: Smooth round shapes with a higher border radius.
+author: userspring
+tags: global, radius, circle
+*/
+
+/* Base Rounding */
+body.sable-remote-theme,
+body.sable-remote-theme [data-sentry-source-file="EmojiBoard.tsx"] *,
+body.sable-remote-theme :is(button, [data-sentry-element="Button"]):not([class*="Username"]) {
+  border-radius: 12.8px;
+}
+body.sable-remote-theme :is(div [class*="_1fc5sz51 _1mqalmd1 _1mqalmd0 _1fc5sz52 _1fc5sz5c"]),
+body.sable-remote-theme :is(div [class*="_1fptcza0 _1mqalmd1 _1mqalmd0 _1fptcza2"]),
+body.sable-remote-theme :is([class*="Editor"], [class*="Attachment"]),
+body.sable-remote-theme :is([class*="PollEvent"], [data-sentry-component="SearchInput"] *),
+body.sable-remote-theme :is([data-sentry-component="Search"] *, [class*="UserAvatar"]),
+body.sable-remote-theme :is([class*="UrlPreview"]:not([class*="UrlPreviewDescription"])),
+body.sable-remote-theme :is([class*="MessageOptionsBar"], [class*="MsgTypeRenderers"]),
+body.sable-remote-theme :is([data-sentry-element="EmojiBoardLayout"]),
+body.sable-remote-theme :is([data-sentry-component="SettingTile"] *),
+body.sable-remote-theme :is([data-sentry-component="SableChatPreviewPlaceholder"], [data-sentry-component="ThemeThirdPartyBanner"]),
+body.sable-remote-theme [data-sentry-component="ThemePreviewCard"], [data-sentry-component="ThemePreviewCard"] *,
+body.sable-remote-theme :is([data-sentry-component="CatalogTweakCard"]),
+body.sable-remote-theme :is([data-sentry-element="Dialog"], [class*="RoomAvatar"]),
+body.sable-remote-theme [class*="RoomCardAvatar"], 
+body.sable-remote-theme :is([data-sentry-component="InfoCard"], [class*="SequenceCard"] *) {
+  border-radius: 12.8px !important;
+}
+
+/* No Rounding */
+body.sable-remote-theme [class*="styles_UserHeroAvatar__1eorsy9b"] *, 
+body.sable-remote-theme div [class*="Editor_Editor"] *:not(button, [class*="CustomHtml"]),
+body.sable-remote-theme [class*="Editor__1a1o97c0"]:not(:has([class*="EditorOptions"])),
+body.sable-remote-theme [class*="RoomViewFollowing"] {
+  border-radius: 0 !important;
+}
+
+/* Custom Rounding */
+body.sable-remote-theme img:not([class*="ImageViewer"], [class*="_1fptcza0 _1mqalmd1 _1mqalmd0 _1fptcza2"] *),
+body.sable-remote-theme [data-sentry-source-file="AccountDataEditor.tsx"] *,
+body.sable-remote-theme div [class*="SequenceCard"] {
+  border-radius: 11.2px;
+}
+body.sable-remote-theme button[class*="Reaction_Reaction"],
+body.sable-remote-theme [data-sentry-element="AvatarPresence"] *,
+body.sable-remote-theme div [class*=layout_MessageBase_notifyHighlight_loud] {
+  border-radius: 9.6px !important;
+}
+body.sable-remote-theme div [class*="RoomCover"] {
+  border-radius: 0 0 8px 8px !important;
+}
+body.sable-remote-theme div [class*=UserQuickTools] {
+  border-radius: 9.6px 9.6px 0 0 !important;
+}
+body.sable-remote-theme button[data-sentry-component="CustomEmojiItem"] *,
+body.sable-remote-theme img[class*="PreviewImg"],
+body.sable-remote-theme [class*="ImagePackImage"],
+body.sable-remote-theme div [class*="CustomHtml"] {
+  border-radius: 4.8px !important;
+}
+body.sable-remote-theme button [class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41"]  {
+  border-radius: 16px !important;
+}
+body.sable-remote-theme [class*="Reaction_ReactionImg"] {
+  border-radius: 3.2px !important;
+}
+
+/* Dynamic Rounding */
+body.sable-remote-theme [class*="NavItem"][aria-selected="true"] [class*="RoomAvatar"] {
+  border-radius: 8px !important;
+}
+body.sable-remote-theme [class*="SidebarStack"] *[aria-pressed="true"] [class*="SidebarBtnImg"] {
+  border-radius: 8px !important;
+}
