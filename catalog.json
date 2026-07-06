@@ -163,6 +163,14 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/clear-theme-font.sable.css"
     },
     {
+      "basename": "dynamic-membersbar",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/dynamic-membersbar.sable.css"
+    },
+    {
+      "basename": "dynamic-roomsbar",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/dynamic-roomsbar.sable.css"
+    },
+    {
       "basename": "grayscale-avatars",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/grayscale-avatars.sable.css"
     },
@@ -173,6 +181,10 @@
     {
       "basename": "rounded",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/rounded.sable.css"
+    },
+    {
+      "basename": "rounded-sable",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/rounded-sable.sable.css"
     },
     {
       "basename": "solid-colors",
