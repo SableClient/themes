@@ -7,10 +7,18 @@ author: userspring
 tags: sidebar
 */
 
+body.sable-remote-theme {
+  --room-width: 3.9rem;
+  --bottom-width: 4.09rem;
+  --bottom-vis: hidden;
+  --upscale-icon: 22px;
+  --upscale: 30.6px;
+}
+
 /* Minimum ini Size */
 body.sable-remote-theme :is([data-sentry-component="Space"], 
   [data-sentry-component="Home"], [data-sentry-component="Direct"]) {
-  width: 3.9rem !important;
+  width: var(--room-width) !important;
   transition: width 0.2s ease-in-out;
 }
 /* Max hover Size */
@@ -22,8 +30,7 @@ body.sable-remote-theme :is([data-sentry-component="Space"],
 /* ini Room Icon Size */
 body.sable-remote-theme :is([data-sentry-component="Space"], 
   [data-sentry-component="Home"], [data-sentry-component="Direct"]) 
-[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *:not([class*=AvatarPresenceBadge] *, [class*="RoomIconComposite"] *) {
-  --upscale:30.6px;
+[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *:not([class*=AvatarPresenceBadge] *, [class*="RoomIconComposite"] *, [class*=UserQuickTools] *) {
   height: var(--upscale);
   width: var(--upscale);
   --display: grid;
@@ -36,9 +43,8 @@ body.sable-remote-theme :is([data-sentry-component="Space"],
   [data-sentry-component="Home"], [data-sentry-component="Direct"]) 
 [class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv4d prxiv41a prxiv41k prxiv41s"] 
 [data-sentry-element="Icon"] {
-  --upscale:22px;
-  height: var(--upscale) !important;
-  width: var(--upscale) !important;
+  height: var(--upscale-icon) !important;
+  width: var(--upscale-icon) !important;
   transition: width 0.05s ease-in-out;
 }
 body.sable-remote-theme :is([data-sentry-component="Space"], 
@@ -49,43 +55,36 @@ body.sable-remote-theme :is([data-sentry-component="Space"],
 /* Hover Room Icon Size */
 body.sable-remote-theme :is([data-sentry-component="Space"], 
   [data-sentry-component="Home"], [data-sentry-component="Direct"]):hover 
-[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *:not([class*=AvatarPresenceBadge], [class*="RoomIconComposite"]) {
+[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *:not([class*=AvatarPresenceBadge], [class*="RoomIconComposite"], [class*=UserQuickTools] *) {
   --upscale: 24px !important;
 }
 body.sable-remote-theme :is([data-sentry-component="Space"], 
   [data-sentry-component="Home"], [data-sentry-component="Direct"]):hover 
 [class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv4d prxiv41a prxiv41k prxiv41s"] 
 [data-sentry-element="Icon"] {
-  --upscale: meow !important;
+  --upscale-icon: meow !important;
 }
 
 /* Bottom Bar */
 body.sable-remote-theme [class*=UserQuickTools] {
-  width: 4.09rem !important;
-  transition: width 0.05s ease-in-out !important;
-  [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41"] {
-  visibility: hidden;
-  transition: width 0.05s ease-in-out !important;}
+  width: var(--bottom-width) !important;
+  transition: width 0.2s ease-in-out !important;
+  visibility: var(--bottom-vis);
 }
 /* Bottom Bar Hover */
-body.sable-remote-theme div [data-sentry-component="ClientLayout"]:has([class*="UserQuickTools"]:hover, [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv41t"]:hover) 
+body.sable-remote-theme div :is([class*="UserQuickTools"]:hover, [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv41t"]:hover) 
 [class*="UserQuickTools"] {
   width: 19.05rem !important;
-[class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41"] {
-  visibility: visible !important;}
+  visibility: visible !important;
 }
 
 /* Extra Hovers */
-body.sable-remote-theme div [data-sentry-component="ClientLayout"]:has([class*="UserQuickTools"]:hover, [class*="Sidebar_Sidebar__vs60p50"]:hover) 
-:is([data-sentry-component="Space"], [data-sentry-component="Home"], [data-sentry-component="Direct"]) {
-  width: 14.9375rem !important;
-}
-body.sable-remote-theme div [data-sentry-component="ClientLayout"]:has([class*="UserQuickTools"]:hover, [class*="Sidebar_Sidebar__vs60p50"]:hover) 
-[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *:not([class*=AvatarPresenceBadge], [class*="RoomIconComposite"]) {
+body.sable-remote-theme div [data-sentry-source-file="ClientLayout.tsx"]:has(
+[class*="Sidebar_Sidebar__vs60p50"]:hover) {
+
+  --bottom-width: 19.05rem !important;
+  --bottom-vis: visible !important;
+  --room-width: 14.9375rem !important;
+  --upscale-icon: meow !important;
   --upscale: 24px !important;
-}
-body.sable-remote-theme div [data-sentry-component="ClientLayout"]:has([class*="UserQuickTools"]:hover, [class*="Sidebar_Sidebar__vs60p50"]:hover) 
-[class*="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv4d prxiv41a prxiv41k prxiv41s"] 
-[data-sentry-element="Icon"] {
-  --upscale: meow !important;
 }

@@ -17,25 +17,26 @@ body.sable-remote-theme :is(div [class*="_1fc5sz51 _1mqalmd1 _1mqalmd0 _1fc5sz52
 body.sable-remote-theme :is(div [class*="_1fptcza0 _1mqalmd1 _1mqalmd0 _1fptcza2"]),
 body.sable-remote-theme :is([class*="Editor"], [class*="Attachment"]),
 body.sable-remote-theme :is([class*="PollEvent"], [data-sentry-component="SearchInput"] *),
-body.sable-remote-theme :is([data-sentry-component="Search"] *, [class*="UserAvatar"]),
+body.sable-remote-theme :is([data-sentry-component="Search"] *),
 body.sable-remote-theme :is([class*="UrlPreview"]:not([class*="UrlPreviewDescription"])),
 body.sable-remote-theme :is([class*="MessageOptionsBar"], [class*="MsgTypeRenderers"]),
 body.sable-remote-theme :is([data-sentry-element="EmojiBoardLayout"]),
 body.sable-remote-theme :is([data-sentry-component="SettingTile"] *),
 body.sable-remote-theme :is([data-sentry-component="SableChatPreviewPlaceholder"], [data-sentry-component="ThemeThirdPartyBanner"]),
 body.sable-remote-theme [data-sentry-component="ThemePreviewCard"], [data-sentry-component="ThemePreviewCard"] *,
-body.sable-remote-theme :is([data-sentry-component="CatalogTweakCard"]),
+body.sable-remote-theme :is([data-sentry-component="CatalogTweakCard"], [data-sentry-component="TweakPreviewUrlCard"]),
 body.sable-remote-theme :is([data-sentry-element="Dialog"], [class*="RoomAvatar"]),
-body.sable-remote-theme [class*="RoomCardAvatar"], 
-body.sable-remote-theme :is([data-sentry-component="InfoCard"], [class*="SequenceCard"] *) {
+body.sable-remote-theme :is([class*="RoomCardAvatar"]), 
+body.sable-remote-theme :is([data-sentry-component="InfoCard"], [class*="SequenceCard"]) {
   border-radius: 12.8px !important;
 }
 
 /* No Rounding */
+body.sable-remote-theme [class*="_1684mq51 _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 _1684mq55 cpipac3 styles_UserHeroAvatar__1eorsy9b"], 
 body.sable-remote-theme [class*="styles_UserHeroAvatar__1eorsy9b"] *, 
 body.sable-remote-theme div [class*="Editor_Editor"] *:not(button, [class*="CustomHtml"]),
 body.sable-remote-theme [class*="Editor__1a1o97c0"]:not(:has([class*="EditorOptions"])),
-body.sable-remote-theme [class*="RoomViewFollowing"] {
+body.sable-remote-theme :is([class*="RoomViewFollowing"], [class="Text_LineClamp2__11dexfy1"]) {
   border-radius: 0 !important;
 }
 
@@ -56,6 +57,7 @@ body.sable-remote-theme div [class*="RoomCover"] {
 body.sable-remote-theme div [class*=UserQuickTools] {
   border-radius: 9.6px 9.6px 0 0 !important;
 }
+body.sable-remote-theme [class*="UserAvatar"],
 body.sable-remote-theme button[data-sentry-component="CustomEmojiItem"] *,
 body.sable-remote-theme img[class*="PreviewImg"],
 body.sable-remote-theme [class*="ImagePackImage"],
