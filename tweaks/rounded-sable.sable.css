@@ -9,6 +9,7 @@ tags: global, circular
 
 /* Base Rounding */
 body.sable-remote-theme,
+body.sable-remote-theme [class*="styles_UserAvatarContainer__1eorsy97"],
 body.sable-remote-theme [data-sentry-source-file="EmojiBoard.tsx"] *,
 body.sable-remote-theme :is(button, [data-sentry-element="Button"]):not([class*="Username"]) {
   border-radius: 12.8px;
@@ -47,9 +48,11 @@ body.sable-remote-theme div [class*="SequenceCard"] {
   border-radius: 11.2px;
 }
 body.sable-remote-theme button[class*="Reaction_Reaction"],
-body.sable-remote-theme [data-sentry-element="AvatarPresence"] *,
 body.sable-remote-theme div [class*=layout_MessageBase_notifyHighlight_loud] {
   border-radius: 9.6px !important;
+}
+body.sable-remote-theme [data-sentry-element="AvatarPresence"] * {
+  border-radius: 12.8px !important;
 }
 body.sable-remote-theme div [class*="RoomCover"] {
   border-radius: 0 0 8px 8px !important;
@@ -57,7 +60,6 @@ body.sable-remote-theme div [class*="RoomCover"] {
 body.sable-remote-theme div [class*=UserQuickTools] {
   border-radius: 9.6px 9.6px 0 0 !important;
 }
-body.sable-remote-theme [class*="UserAvatar"],
 body.sable-remote-theme button[data-sentry-component="CustomEmojiItem"] *,
 body.sable-remote-theme img[class*="PreviewImg"],
 body.sable-remote-theme [class*="ImagePackImage"],

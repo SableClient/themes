@@ -9,7 +9,7 @@ tags: sidebar
 
 body.sable-remote-theme {
   --room-width: 3.9rem;
-  --bottom-width: 4.09rem;
+  --bottom-width: 19.05rem;
   --bottom-vis: hidden;
   --upscale-icon: 22px;
   --upscale: 30.6px;
@@ -68,7 +68,6 @@ body.sable-remote-theme :is([data-sentry-component="Space"],
 /* Bottom Bar */
 body.sable-remote-theme [class*=UserQuickTools] {
   width: var(--bottom-width) !important;
-  transition: width 0.2s ease-in-out !important;
   visibility: var(--bottom-vis);
 }
 /* Bottom Bar Hover */

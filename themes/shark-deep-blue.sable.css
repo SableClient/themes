@@ -63,7 +63,7 @@ body.sable-remote-theme {
 
   /* --- Surface Variant --- */
   --sable-surface-var-container: hsl(209, 52.07%, 10.18%);
-  --sable-surface-var-container-hover: hsl(353, 34.72%, 12.56%);
+  --sable-surface-var-container-hover: hsl(353, 14.72%, 16%);
   --sable-surface-var-container-active: hsl(205, 33.14%, 16.14%);
   --sable-surface-var-container-line: hsl(353, 47.34%, 30.32%);
   --sable-surface-var-on-container: hsl(225, 89.95%, 84.47%);
@@ -74,15 +74,15 @@ body.sable-remote-theme {
   --sable-primary-main-active: hsl(226, 69.43%, 71.80%);
   --sable-primary-main-line: hsl(227, 64.70%, 65.41%);
   --sable-primary-on-main: hsl(207, 34.72%, 12.56%);
-  --sable-primary-container: hsl(206, 37.87%, 21.66%);
-  --sable-primary-container-hover: hsl(353, 34.72%, 27.83%);
+  --sable-primary-container: hsl(206, 27.87%, 28%);
+  --sable-primary-container-hover: hsl(206, 31.56%, 24%);
   --sable-primary-container-active: hsl(203, 33.14%, 34.01%);
   --sable-primary-container-line: hsl(203, 33.14%, 40.18%);
   --sable-primary-on-container: hsl(203, 78.9%, 98.99%);
 
   /* --- Secondary --- */
   --sable-sec-main: hsl(206, 23.67%, 65.85%);
-  --sable-sec-main-hover: hsl(353, 22.09%, 72.45%);
+  --sable-sec-main-hover: hsl(206, 22.09%, 72.45%);
   --sable-sec-main-active: hsl(208, 20.51%, 79.38%);
   --sable-sec-main-line: hsl(208, 18.94%, 85.99%);
   --sable-sec-on-main: hsl(207, 34.72%, 12.56%);
@@ -93,11 +93,11 @@ body.sable-remote-theme {
   --sable-sec-on-container: hsl(203, 78.9%, 98.99%);
 
   /* --- Success --- */
-  --sable-success-main: hsl(353, 72.59%, 79.17%);
-  --sable-success-main-hover: hsl(353, 69.43%, 72.67%);
-  --sable-success-main-active: hsl(353, 67.85%, 67.90%);
-  --sable-success-main-line: hsl(353, 66.28%, 63.68%);
-  --sable-success-on-main: hsl(353, 39.45%, 15.27%);
+  --sable-success-main: hsl(203, 72.59%, 79.17%);
+  --sable-success-main-hover: hsl(203, 69.43%, 72.67%);
+  --sable-success-main-active: hsl(203, 67.85%, 67.90%);
+  --sable-success-main-line: hsl(203, 66.28%, 63.68%);
+  --sable-success-on-main: hsl(206, 39.45%, 15.27%);
   --sable-success-container: hsl(353, 47.34%, 23.83%);
   --sable-success-container-hover: hsl(353, 47.34%, 27.62%);
   --sable-success-container-active: hsl(353, 47.34%, 31.41%);
@@ -126,7 +126,7 @@ body.sable-remote-theme {
   --sable-crit-container-hover: hsl(353, 55.23%, 33.14%);
   --sable-crit-container-active: hsl(353, 53.65%, 37.36%);
   --sable-crit-container-line: hsl(353, 52.07%, 41.59%);
-  --sable-crit-on-container: hsl(353, 100%, 98.77%);
+  --sable-crit-on-container: hsl(353, 100%, 80%);
 
   /* --- Other --- */
   --sable-focus-ring: hsla(225, 89.95%, 84.47%, 0.5);

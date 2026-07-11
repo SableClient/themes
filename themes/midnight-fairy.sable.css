@@ -46,12 +46,12 @@ body.sable-remote-theme {
 
   /* Primary */
   --sable-primary-main: hsl(270, 45%, 74%);
-  --sable-primary-main-hover: hsl(270, 25%, 37.4%);
+  --sable-primary-main-hover: hsl(270, 45%, 80%);
   --sable-primary-main-active: hsl(270, 25%, 40.8%);
   --sable-primary-main-line: hsl(270, 25%, 44.2%);
   --sable-primary-on-main: hsl(270, 32.5%, 31%);
   --sable-primary-container: hsl(270, 25%, 45%);
-  --sable-primary-container-hover: hsl(250, 25%, 40.18%);
+  --sable-primary-container-hover: hsl(270, 25%, 42%);
   --sable-primary-container-active: hsl(270, 20%, 53.04%);
   --sable-primary-container-line: hsl(270, 20%, 57.46%);
   --sable-primary-on-container: hsl(345, 25%, 92%);

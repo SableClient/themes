@@ -25,8 +25,8 @@ body.sable-remote-theme {
   --sable-surface-on-container: hsl(210, 20%, 95%);
 
   /* Surface Variant */
-  --sable-surface-var-container: hsl(210, 30%, 17%);
-  --sable-surface-var-container-hover: hsl(210, 30%, 18.7%);
+  --sable-surface-var-container: hsl(210, 30%, 19%);
+  --sable-surface-var-container-hover: hsl(210, 30%, 17%);
   --sable-surface-var-container-active: hsl(210, 30%, 20.4%);
   --sable-surface-var-container-line: hsl(210, 30%, 22.1%);
   --sable-surface-var-on-container: hsl(210, 25%, 100%);
