@@ -94,6 +94,11 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/light.sable.css"
     },
     {
+      "basename": "matrix-terminal",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/matrix-terminal.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/matrix-terminal.sable.css"
+    },
+    {
       "basename": "midnight-fairy",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/midnight-fairy.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/midnight-fairy.sable.css"
@@ -161,6 +166,10 @@
     {
       "basename": "clear-theme-font",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/clear-theme-font.sable.css"
+    },
+    {
+      "basename": "crt-filter",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/crt-filter.sable.css"
     },
     {
       "basename": "dynamic-membersbar",
