@@ -32,7 +32,7 @@ body.sable-remote-theme :is(.layout_MessageTextBody_jumboEmoji_none__1r9nvas1b,
 }
 
 body.sable-remote-theme {
- --font-secondary: 'Intel One Mono', monospace, 'Twemoji', system-ui, -apple-system, sans-serif;
+  --font-secondary: 'Intel One Mono', monospace, 'Twemoji', system-ui, -apple-system, sans-serif;
 
   /* Background */
   --sable-bg-container: hsl(0, 0%, 0%);
@@ -43,7 +43,7 @@ body.sable-remote-theme {
 
   /* Surface */
   --sable-surface-container: hsl(0, 0%, 0%);
-  --sable-surface-container-hover: hsl(120, 80%, 6.3%);
+  --sable-surface-container-hover: hsl(120, 80%, 4.5%);
   --sable-surface-container-active: hsl(120, 100%, 6.3%);
   --sable-surface-container-line: hsl(120, 71.4%, 28.2%);
   --sable-surface-on-container: hsl(120, 80%, 100%);
@@ -97,8 +97,8 @@ body.sable-remote-theme {
   --sable-warn-main-active: hsl(300, 80%, 66.3%);
   --sable-warn-main-line: hsl(300, 80%, 63.9%);
   --sable-warn-on-main: hsl(300, 80%, 16.5%);
-  --sable-warn-container: hsl(120, 80%, 15%);
-  --sable-warn-container-hover: hsl(120, 80%, 18%);
+  --sable-warn-container: hsl(120, 80%, 25%);
+  --sable-warn-container-hover: hsl(120, 80%, 22%);
   --sable-warn-container-active: hsl(120, 80%, 30.2%);
   --sable-warn-container-line: hsl(120, 80%, 55%);
   --sable-warn-on-container: hsl(120, 80%, 88.6%);
@@ -130,8 +130,8 @@ body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]:hover {
 /* Light Bleed */
 body.sable-remote-theme,
 body.sable-remote-theme button * {
-text-shadow: 0.5px 0 2.8px #00ff00,
--1.5px 0 2px #6d1919;
+text-shadow: 0.5px 0 2.8px rgba(0, 255, 0, 0.7),
+-1.5px 0 2px rgba(109, 25, 25, 0.75);
 }
 body.sable-remote-theme [class*="Reaction_ReactionText__1ofy2966"] * {
 min-width: 17px !important;
