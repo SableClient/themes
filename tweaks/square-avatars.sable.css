@@ -7,19 +7,51 @@ author: Sable
 tags: avatar
 */
 
-body.sable-remote-theme img[class*='UserAvatar'],
-body.sable-remote-theme span[class*='UserAvatar'] {
+body.sable-remote-theme span[class*="layout_AvatarBase"] > *,
+body.sable-remote-theme img[class*="UserAvatar"],
+body.sable-remote-theme span[class*="UserAvatar"],
+body.sable-remote-theme img[class*="RoomAvatar"],
+body.sable-remote-theme span[class*="RoomAvatar"] {
   border-radius: 0 !important;
   overflow: hidden;
 }
 
-body.sable-remote-theme button[class*='UserHeroAvatar'],
-body.sable-remote-theme div[class*='UserHeroAvatar__'] {
+body.sable-remote-theme :is(span, button):has(> [class*="UserAvatar"]) {
   border-radius: 0 !important;
   overflow: hidden;
 }
 
-body.sable-remote-theme div[class*='UserAvatarContainer'] {
+body.sable-remote-theme :is(span, button):has(> [class*="RoomAvatar"]) {
   border-radius: 0 !important;
-  overflow: visible !important; 
+  overflow: hidden;
+}
+
+body.sable-remote-theme button[class*="UserHeroAvatar"],
+body.sable-remote-theme div[class*="UserHeroAvatar__"] {
+  border-radius: 0 !important;
+  overflow: hidden;
+}
+
+body.sable-remote-theme div[class*="UserAvatarContainer"],
+body.sable-remote-theme [class*="styles_UserAvatarContainer__1eorsy97"] {
+  border-radius: 0 !important;
+  overflow: visible !important;
+}
+
+body.sable-remote-theme
+  [class*="styles_UserAvatarContainer__1eorsy97"]
+  > :not([class*="AvatarPresenceBadge"]) {
+  border-radius: 0 !important;
+}
+
+body.sable-remote-theme
+  [data-sentry-element="AvatarPresence"]
+  *:not(
+    [class*="AvatarPresenceBadge"],
+    [class*="AvatarPresenceBadge"] *,
+    [class*="UserQuickTools"],
+    [class*="UserQuickTools"] *
+  ) {
+  border-radius: 0 !important;
+  overflow: hidden;
 }
