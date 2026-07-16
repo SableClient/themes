@@ -1,0 +1,172 @@
+/*
+@sable-theme
+id: msdos-terminal
+name: MS-DOS Terminal
+author: userspring
+kind: dark
+contrast: high
+tags: oled, white, black · recommended tweaks: square-everything, crt
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/msdos-terminal.sable.css
+*/
+
+@font-face {
+  font-family: 'Terminus';
+  font-weight: 'normal';
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/chrissimpkins/codeface/master/fonts/terminus/Terminus.ttf') format('truetype');
+  font-display: swap;
+}
+body.sable-remote-theme :is(.layout_MessageTextBody_jumboEmoji_none__1r9nvas1b, 
+[class*="CustomHtml_Paragraph__1t9vo331"], [class="layout_Username__1r9nvas16"] *, 
+.Editor_Editor__1a1o97c0 *:not([class*="CustomHtml_EmoticonBase__1t9vo33q"] *)) {
+    --custom-font-size1: 1.07rem;
+    --custom-line-height: 1.3;
+    font-size: var(--custom-font-size1);
+    line-height: var(--custom-line-height);
+}
+body.sable-remote-theme *:not([data-sentry-source-file="EmojiBoard.tsx"] *, 
+[class*="layout_MessageTextBody_jumboEmoji"] *, [class*="CustomHtml_EmoticonBase__1t9vo33q"] *, 
+[class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv44 prxiv4i prxiv41b prxiv41l prxiv41s"] *, 
+[class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv4i prxiv41a prxiv41l prxiv41s"] *) {
+    --custom-font-size2: 0.95rem, initial;
+    font-size: var(--custom-font-size2);
+}
+
+body.sable-remote-theme {
+  --font-secondary: 'Terminus', monospace, 'Twemoji', system-ui, -apple-system, sans-serif;
+
+  /* Background */
+  --sable-bg-container: hsl(0, 0%, 0%);
+  --sable-bg-container-hover: hsl(1, 0%, 9%);
+  --sable-bg-container-active: hsl(1, 0%, 15%);
+  --sable-bg-container-line: hsl(1, 0%, 50%);
+  --sable-bg-on-container: hsl(1, 0%, 100%);
+
+  /* Surface */
+  --sable-surface-container: hsl(0, 0%, 0%);
+  --sable-surface-container-hover: hsl(1, 0%, 8%);
+  --sable-surface-container-active: hsl(1, 0%, 6.3%);
+  --sable-surface-container-line: hsl(1, 0%, 60%);
+  --sable-surface-on-container: hsl(1, 0%, 100%);
+
+  /* Surface Variant */
+  --sable-surface-var-container: hsl(1, 0%, 5%);
+  --sable-surface-var-container-hover: hsl(1, 0%, 15%);
+  --sable-surface-var-container-active: hsl(1, 0%, 8%);
+  --sable-surface-var-container-line: hsl(1, 0%, 65%);
+  --sable-surface-var-on-container: hsl(1, 0%, 100%);
+  
+  /* Primary */
+  --sable-primary-main: hsl(1, 0%, 100%);
+  --sable-primary-main-hover: hsl(1, 0%, 40%);
+  --sable-primary-main-active: hsl(1, 0%, 71.2%);
+  --sable-primary-main-line: hsl(1, 0%, 65.7%);
+  --sable-primary-on-main: hsl(1, 0%, 11.6%);
+  --sable-primary-container: hsl(1, 0%, 16%);
+  --sable-primary-container-hover: hsl(240, 100%, 19%);
+  --sable-primary-container-active: hsl(240, 100%, 19%);
+  --sable-primary-container-line: hsl(1, 0%, 50%);
+  --sable-primary-on-container: hsl(1, 0%, 100%);
+  
+  /* Secondary */
+  --sable-sec-main: hsl(1, 0%, 65%);
+  --sable-sec-main-hover: hsl(1, 0%, 68.6%);
+  --sable-sec-main-active: hsl(1, 0%, 74.9%);
+  --sable-sec-main-line: hsl(1, 0%, 81.2%);
+  --sable-sec-on-main: hsl(0, 0%, 0%);
+  --sable-sec-container: hsl(1, 0%, 100%);
+  --sable-sec-container-hover: hsl(1, 0%, 45%);
+  --sable-sec-container-active: hsl(1, 0%, 12.5%);
+  --sable-sec-container-line: hsl(1, 0%, 100%);
+  --sable-sec-on-container: hsl(1, 0%, 20%);
+  
+  /* Success */
+  --sable-success-main: hsl(1, 0%, 60%);
+  --sable-success-main-hover: hsl(1, 0%, 65%);
+  --sable-success-main-active: hsl(1, 0%, 65%);
+  --sable-success-main-line: hsl(1, 0%, 65%);
+  --sable-success-on-main: hsl(1, 0%, 14.9%);
+  --sable-success-container: hsl(240, 100%, 22.5%);
+  --sable-success-container-hover: hsl(240, 100%, 25.1%);
+  --sable-success-container-active: hsl(240, 100%, 27.5%);
+  --sable-success-container-line: hsl(240, 100%, 30%);
+  --sable-success-on-container: hsl(240, 100%, 87.5%);
+ 
+  /* Warning */
+  --sable-warn-main: hsl(240, 100%, 72.9%);
+  --sable-warn-main-hover: hsl(240, 100%, 68.4%);
+  --sable-warn-main-active: hsl(240, 100%, 66.3%);
+  --sable-warn-main-line: hsl(240, 100%, 63.9%);
+  --sable-warn-on-main: hsl(240, 100%, 16.5%);
+  --sable-warn-container: hsl(1, 0%, 45%);
+  --sable-warn-container-hover: hsl(1, 0%, 22%);
+  --sable-warn-container-active: hsl(1, 0%, 30.2%);
+  --sable-warn-container-line: hsl(1, 0%, 90%);
+  --sable-warn-on-container: hsl(1, 0%, 88.6%);
+ 
+  /* Critical */
+  --sable-crit-main: hsl(240, 100%, 68%);
+  --sable-crit-main-hover: hsl(240, 100%, 63%);
+  --sable-crit-main-active: hsl(240, 100%, 70%);
+  --sable-crit-main-line: hsl(240, 100%, 68%);
+  --sable-crit-on-main: hsl(240, 100%, 18%);
+  --sable-crit-container: hsl(240, 100%, 26.9%);
+  --sable-crit-container-hover: hsl(240, 100%, 18.3%);
+  --sable-crit-container-active: hsl(240, 100%, 33.1%);
+  --sable-crit-container-line: hsl(240, 100%, 35.9%);
+  --sable-crit-on-container: hsl(240, 100%, 98%);
+ 
+  /* Other */
+  --sable-focus-ring: hsla(1, 0%, 65%, 0.8);
+  --sable-shadow: hsla(1, 0%, 25%, 0.6);
+  --sable-overlay: hsla(1, 0%, 2%, 0.9);
+}
+
+/* Buttons Outline */
+body.sable-remote-theme button:not([class*="Reply_Reply__1ew384n2"], [class*="RoomViewFollowing"], [class="layout_Username__1r9nvas16"],
+  [class="_1bv8u1w6 _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 _1bv8u1w8 _1bv8u1wh _1bv8u1wf cpipac3"]):hover {
+  box-shadow: inset 0 0 0px 1px hsl(1, 0%, 90%);
+}
+
+/* Light Bleed */
+body.sable-remote-theme,
+body.sable-remote-theme button * {
+text-shadow: -1.5px 0 2px rgba(255, 255, 255, 0.25);
+}
+body.sable-remote-theme [class*="_1fptcza0 _1mqalmd1 _1mqalmd0 _1fptcza2"] *,
+body.sable-remote-theme [class*="_13qe89m6 _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91"] *,
+body.sable-remote-theme [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv44 prxiv4a prxiv41k"],
+body.sable-remote-theme [class="_1xny9xl0 _1mqalmd1 _1mqalmd0 _1xny9xle _1xny9xlr _1xny9xln"],
+body.sable-remote-theme [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *,
+body.sable-remote-theme [class*="epr39zd _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 epr39zf"] * {
+text-shadow: unset;
+}
+body.sable-remote-theme [class="epr39zd _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 epr39ze epr39zl epr39zn cpipac2"],
+body.sable-remote-theme [class*="epr39zd _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 epr39ze epr39zl epr39zo"] *,
+body.sable-remote-theme [class="_1xny9xl0 _1mqalmd1 _1mqalmd0 _1xny9xlg _1xny9xlr"],
+body.sable-remote-theme [class="_13tt0gb6 _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 _13tt0gbe _13tt0gbg _13tt0gbh cpipac2"] *,
+body.sable-remote-theme [class*="layout_MessageTextBody__1r9nvas19"] {
+text-shadow: unset;
+}
+body.sable-remote-theme [data-mx-spoiler][aria-pressed="true"] {
+    text-shadow: none !important;
+}
+body.sable-remote-theme [data-mx-spoiler][aria-pressed="false"] {
+    background: var(--sable-surface-var-container-hover) !important;
+}
+  /* Text Box Bracket */
+body.sable-remote-theme [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv46 prxiv41t"] 
+.Editor_Editor__1a1o97c0 *:focus-visible::after {
+  content: '';
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  width: 10px;     
+  height: 20px;    
+  background-color: #ffffff;
+  animation: flicker 1s step-end infinite;
+}
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}

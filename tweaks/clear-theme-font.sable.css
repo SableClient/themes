@@ -10,4 +10,7 @@ tags: global, font
 body.sable-remote-theme,
 body.sable-remote-theme * {
   font-family: 'Nunito Variable', 'Twemoji', system-ui, -apple-system, sans-serif, serif !important;
+  --custom-font-size1: 1rem !important;
+  --custom-font-size2: var(--_164xfgeb) !important;
+  --custom-line-height: inherit !important;
 }

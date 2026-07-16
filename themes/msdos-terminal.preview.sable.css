@@ -1,0 +1,20 @@
+/*
+@sable-theme
+id: msdos-terminal
+name: MS-DOS Terminal
+author: userspring
+kind: dark
+contrast: high
+tags: oled, white, black · recommended tweaks: square-everything, crt
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/msdos-terminal.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: hsl(0, 0%, 0%);
+  --sable-bg-on-container: hsl(1, 0%, 100%);
+  --sable-surface-container: hsl(0, 0%, 0%);
+  --sable-surface-container-line: hsl(1, 0%, 55%);
+  --sable-surface-on-container: hsl(1, 0%, 100%);
+  --sable-primary-main: hsl(1, 0%, 100%);
+  --sable-primary-on-main: hsl(1, 0%, 0%);
+}

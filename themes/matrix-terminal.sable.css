@@ -6,7 +6,6 @@ author: userspring
 kind: dark
 contrast: high
 tags: oled, green, black · recommended tweaks: square-everything, crt
-fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/matrix-terminal.sable.css
 */
 
 @font-face {
@@ -27,8 +26,10 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/m
 
 body.sable-remote-theme :is(.layout_MessageTextBody_jumboEmoji_none__1r9nvas1b, 
 [class*="CustomHtml_Paragraph__1t9vo331"]) {
-    font-size: 0.95rem !important;
-    line-height: 1.4;
+    --custom-font-size1: 0.95rem;
+    --custom-line-height: 1.4;
+    font-size: var(--custom-font-size1);
+    line-height: var(--custom-line-height);
 }
 
 body.sable-remote-theme {
@@ -130,8 +131,9 @@ body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]:hover {
 /* Light Bleed */
 body.sable-remote-theme,
 body.sable-remote-theme button * {
-text-shadow: 0.5px 0 2.8px rgba(0, 255, 0, 0.7),
+--custom-text-shadow1: 0.5px 0 2.8px rgba(0, 255, 0, 0.7),
 -1.5px 0 2px rgba(109, 25, 25, 0.75);
+text-shadow: var(--custom-text-shadow1);
 }
 body.sable-remote-theme [class*="Reaction_ReactionText__1ofy2966"] * {
 min-width: 17px !important;
@@ -142,7 +144,8 @@ body.sable-remote-theme [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv44 prxi
 body.sable-remote-theme [class="_1xny9xl0 _1mqalmd1 _1mqalmd0 _1xny9xle _1xny9xlr _1xny9xln"],
 body.sable-remote-theme [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 styles_AvatarPresence__1meaq7c0"] *,
 body.sable-remote-theme [class*="epr39zd _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 epr39zf"] * {
-text-shadow: 0.5px 0 2.8px #00ff00;
+--custom-text-shadow2: 0.5px 0 2.8px #00ff00;
+text-shadow: var(--custom-text-shadow2);
 }
 body.sable-remote-theme [class="epr39zd _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 epr39ze epr39zl epr39zn cpipac2"],
 body.sable-remote-theme [class="epr39zd _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 epr39ze epr39zl epr39zo cpipac5"] *,
@@ -150,9 +153,15 @@ body.sable-remote-theme [class="_1xny9xl0 _1mqalmd1 _1mqalmd0 _1xny9xlb _1xny9xl
 body.sable-remote-theme [class="_1xny9xl0 _1mqalmd1 _1mqalmd0 _1xny9xlg _1xny9xlr"],
 body.sable-remote-theme [class="_13tt0gb6 _1mqalmd1 _1mqalmd0 _1bugis90 _1bugis91 _13tt0gbe _13tt0gbg _13tt0gbh cpipac2"] *,
 body.sable-remote-theme [class*="layout_MessageTextBody__1r9nvas19"] {
-text-shadow: 0 0 2.8px #868686;
+--custom-text-shadow3: 0 0 2.8px #868686;
+text-shadow: var(--custom-text-shadow3);
 }
-
+body.sable-remote-theme [data-mx-spoiler][aria-pressed="true"] {
+    text-shadow: none !important;
+}
+body.sable-remote-theme [data-mx-spoiler][aria-pressed="false"] {
+    background: var(--sable-surface-var-container-hover) !important;
+}
   /* Text Box Bracket */
 body.sable-remote-theme [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv46 prxiv41t"] 
 .Editor_Editor__1a1o97c0 *:focus-visible::after {
