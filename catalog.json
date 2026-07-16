@@ -104,6 +104,11 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/midnight-fairy.sable.css"
     },
     {
+      "basename": "msdos-terminal",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/msdos-terminal.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/msdos-terminal.sable.css"
+    },
+    {
       "basename": "neon-city",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/neon-city.sable.css"
