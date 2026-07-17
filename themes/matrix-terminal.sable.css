@@ -27,9 +27,9 @@ fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/m
 
 body.sable-remote-theme :is(.layout_MessageTextBody_jumboEmoji_none__1r9nvas1b, 
 [class*="CustomHtml_Paragraph__1t9vo331"]) {
-    --custom-font-size1: 0.95rem;
+    --custom-font-size1: 0.92rem;
     --custom-line-height: 1.4;
-    font-size: var(--custom-font-size1);
+    font-size: var(--custom-font-size1) !important;
     line-height: var(--custom-line-height);
 }
 
