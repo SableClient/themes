@@ -130,7 +130,9 @@ body.sable-remote-theme button[class*="Sidebar_SidebarAvatar"]:hover {
   outline: none;
 }
 
-
+body.sable-remote-theme .ThreadDrawer_ThreadDrawerOverlay__1n9cyvz7 {
+    background-color: hsla(300, 50%, 3.5%, 1) !important;
+}
 /* Tip - Rooms & Settings Left Panel Gradient Zone, useful for zero Translucence:
 
 body.sable-remote-theme [data-sentry-component="PageNav"][data-sentry-element="Box"] {
