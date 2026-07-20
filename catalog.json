@@ -161,6 +161,10 @@
   ],
   "tweaks": [
     {
+      "basename": "Atkinson-Hyperlegible",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/Atkinson-Hyperlegible.sable.css"
+    },
+    {
       "basename": "calm-buttons",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/calm-buttons.sable.css"
     },
@@ -191,6 +195,10 @@
     {
       "basename": "grayscale-avatars",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/grayscale-avatars.sable.css"
+    },
+    {
+      "basename": "OpenDyslexic",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/OpenDyslexic.sable.css"
     },
     {
       "basename": "rightbar",
