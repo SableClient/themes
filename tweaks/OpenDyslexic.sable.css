@@ -1,0 +1,49 @@
+/*
+@sable-tweak
+id: opendyslexic-font
+name: OpenDyslexic Font
+description: Use the OpenDyslexic Font
+author: Abbie Gonzalez
+tags: global, font, dyslexia
+*/
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/OpenDyslexic-Regular.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-weight: bold;
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/OpenDyslexic-Bold.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-weight: normal;
+  font-style: italic;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/OpenDyslexic-Italic.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-weight: bold;
+  font-style: italic;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/OpenDyslexic-BoldItalic.otf') format('opentype');
+  font-display: swap;
+}
+
+body.sable-remote-theme,
+body.sable-remote-theme * {
+  --font-secondary: 'OpenDyslexic', Twemoji, -apple-system, sans-serif, serif !important;
+  --font-monospace: monospace;
+  --custom-font-size1: 1rem !important;
+  --custom-font-size2: var(--_164xfgeb) !important;
+  --custom-line-height: inherit !important;
+}
