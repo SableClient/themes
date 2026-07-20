@@ -9,7 +9,8 @@ tags: global, font
 
 body.sable-remote-theme,
 body.sable-remote-theme * {
-  font-family: system-ui, Twemoji, -apple-system, sans-serif, serif !important;
+  --font-secondary: system-ui, Twemoji, -apple-system, sans-serif, serif !important;
+  --font-monospace: monospace;
   --custom-font-size1: 1rem !important;
   --custom-font-size2: var(--_164xfgeb) !important;
   --custom-line-height: inherit !important;
