@@ -1,0 +1,33 @@
+/*
+@sable-tweak
+id: comic-relief-font
+name: Comic Relief Font
+description: Use the Comic Relief Font
+author: Jeff Davis
+tags: global, font, dyslexia
+*/
+
+@font-face {
+  font-family: 'Comic-Relief';
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Comic_Relief/ComicRelief-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comic-Relief';
+  font-weight: bold;
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Comic_Relief/ComicRelief-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+body.sable-remote-theme,
+body.sable-remote-theme * {
+  --font-secondary: 'Comic-Relief', Twemoji, -apple-system, sans-serif, serif !important;
+  --font-monospace: monospace;
+  --custom-font-size1: 1rem !important;
+  --custom-font-size2: var(--_164xfgeb) !important;
+  --custom-line-height: inherit !important;
+}
