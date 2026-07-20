@@ -1,0 +1,49 @@
+/*
+@sable-tweak
+id: Atkinson-Hyperlegible-Font
+name: Atkinson Hyperlegible Font
+description: Use the Atkinson Hyperlegible Font
+author: Braille Institute
+tags: global, font, dyslexia
+*/
+
+@font-face {
+  font-family: 'Atkinson-Hyperlegible';
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/Atkinson-Hyperlegible-Regular-102.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atkinson-Hyperlegible';
+  font-weight: bold;
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/Atkinson-Hyperlegible-Bold-102.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atkinson-Hyperlegible';
+  font-weight: normal;
+  font-style: italic;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/Atkinson-Hyperlegible-Italic-102.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atkinson-Hyperlegible';
+  font-weight: bold;
+  font-style: italic;
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/Atkinson-Hyperlegible-BoldItalic-102.ttf') format('truetype');
+  font-display: swap;
+}
+
+body.sable-remote-theme,
+body.sable-remote-theme * {
+  --font-secondary: 'Atkinson-Hyperlegible', Twemoji, -apple-system, sans-serif, serif !important;
+  --font-monospace: monospace;
+  --custom-font-size1: 1rem !important;
+  --custom-font-size2: var(--_164xfgeb) !important;
+  --custom-line-height: inherit !important;
+}
