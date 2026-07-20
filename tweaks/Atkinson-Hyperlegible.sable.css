@@ -11,7 +11,7 @@ tags: global, font, dyslexia
   font-family: 'Atkinson-Hyperlegible';
   font-weight: normal;
   font-style: normal;
-  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/Atkinson-Hyperlegible-Regular-102.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Atkinson-Hyperlegible/Atkinson-Hyperlegible-Regular-102.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -19,7 +19,7 @@ tags: global, font, dyslexia
   font-family: 'Atkinson-Hyperlegible';
   font-weight: bold;
   font-style: normal;
-  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/Atkinson-Hyperlegible-Bold-102.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Atkinson-Hyperlegible/Atkinson-Hyperlegible-Bold-102.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -27,7 +27,7 @@ tags: global, font, dyslexia
   font-family: 'Atkinson-Hyperlegible';
   font-weight: normal;
   font-style: italic;
-  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/Atkinson-Hyperlegible-Italic-102.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Atkinson-Hyperlegible/Atkinson-Hyperlegible-Italic-102.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -35,7 +35,7 @@ tags: global, font, dyslexia
   font-family: 'Atkinson-Hyperlegible';
   font-weight: bold;
   font-style: italic;
-  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/OpenDyslexic/Atkinson-Hyperlegible-BoldItalic-102.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/SableClient/themes/main/fonts/Atkinson-Hyperlegible/Atkinson-Hyperlegible-BoldItalic-102.ttf') format('truetype');
   font-display: swap;
 }
 
