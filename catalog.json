@@ -173,6 +173,10 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/clear-theme-font.sable.css"
     },
     {
+      "basename": "comic-relief",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/comic-relief.sable.css"
+    },
+    {
       "basename": "crt-filter",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/tweaks/crt-filter.sable.css"
     },
