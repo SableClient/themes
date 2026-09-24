@@ -140,7 +140,7 @@ body.sable-remote-theme [class="prxiv40 _1mqalmd1 _1mqalmd0 prxiv41 prxiv46 prxi
 .Editor_Editor__1a1o97c0 *:focus-visible::after {
   content: '';
   position: absolute;
-  top: 35%;
+  bottom: 22%;
   right: 2%;
   width: 8px;     
   height: 25px;    
