@@ -164,6 +164,11 @@
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/os-win95.sable.css"
     },
     {
+      "basename": "pitch-black",
+      "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/pitch-black.preview.sable.css",
+      "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/pitch-black.sable.css"
+    },
+    {
       "basename": "rose-pine",
       "previewUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine.preview.sable.css",
       "fullUrl": "https://raw.githubusercontent.com/SableClient/themes/main/themes/rose-pine.sable.css"
