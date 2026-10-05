@@ -1,0 +1,20 @@
+/*
+@sable-theme
+id: pitch-black
+name: Pitch Black
+author: Hannes Thöne
+kind: dark
+contrast: low
+tags: dark, oled, black, monochrome
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/pitch-black.sable.css
+*/
+
+.sable-theme-preview {
+  --sable-bg-container: #000000;
+  --sable-bg-on-container: #e8e8e8;
+  --sable-surface-container: #0a0a0a;
+  --sable-surface-container-line: #222222;
+  --sable-surface-on-container: #e8e8e8;
+  --sable-primary-main: #ededed;
+  --sable-primary-on-main: #000000;
+}

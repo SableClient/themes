@@ -1,0 +1,139 @@
+/*
+@sable-theme
+id: pitch-black
+name: Pitch Black
+author: Hannes Thöne
+kind: dark
+contrast: low
+tags: dark, oled, black, monochrome
+fullThemeUrl: https://raw.githubusercontent.com/SableClient/themes/main/themes/pitch-black.sable.css
+*/
+
+body.sable-remote-theme {
+  /* Background */
+  --sable-bg-container: #000000;
+  --sable-bg-container-hover: #1a1a1a;
+  --sable-bg-container-active: #242424;
+  --sable-bg-container-line: #1c1c1c;
+  --sable-bg-on-container: #e8e8e8;
+  /* Surface */
+  --sable-surface-container: #0a0a0a;
+  --sable-surface-container-hover: #1c1c1c;
+  --sable-surface-container-active: #262626;
+  --sable-surface-container-line: #222222;
+  --sable-surface-on-container: #e8e8e8;
+  /* Surface Variant */
+  --sable-surface-var-container: #000000;
+  --sable-surface-var-container-hover: #1a1a1a;
+  --sable-surface-var-container-active: #242424;
+  --sable-surface-var-container-line: #1c1c1c;
+  --sable-surface-var-on-container: #a3a3a3;
+  /* Primary */
+  --sable-primary-main: #ededed;
+  --sable-primary-main-hover: #d9d9d9;
+  --sable-primary-main-active: #c4c4c4;
+  --sable-primary-main-line: #a8a8a8;
+  --sable-primary-on-main: #000000;
+  --sable-primary-container: #262626;
+  --sable-primary-container-hover: #303030;
+  --sable-primary-container-active: #3a3a3a;
+  --sable-primary-container-line: #4a4a4a;
+  --sable-primary-on-container: #f5f5f5;
+  /* Secondary */
+  --sable-sec-main: #8a8a8a;
+  --sable-sec-main-hover: #9c9c9c;
+  --sable-sec-main-active: #adadad;
+  --sable-sec-main-line: #bfbfbf;
+  --sable-sec-on-main: #000000;
+  --sable-sec-container: #1f1f1f;
+  --sable-sec-container-hover: #2a2a2a;
+  --sable-sec-container-active: #333333;
+  --sable-sec-container-line: #3a3a3a;
+  --sable-sec-on-container: #e6e6e6;
+  /* Success */
+  --sable-success-main: #85e0ba;
+  --sable-success-main-hover: #70dbaf;
+  --sable-success-main-active: #66d9a9;
+  --sable-success-main-line: #5cd6a3;
+  --sable-success-on-main: #000000;
+  --sable-success-container: #0f2e21;
+  --sable-success-container-hover: #133a29;
+  --sable-success-container-active: #174631;
+  --sable-success-container-line: #1f5c40;
+  --sable-success-on-container: #ccf2e2;
+  /* Warning */
+  --sable-warn-main: #e3ba91;
+  --sable-warn-main-hover: #dfaf7e;
+  --sable-warn-main-active: #dda975;
+  --sable-warn-main-line: #daa36c;
+  --sable-warn-on-main: #000000;
+  --sable-warn-container: #2e1f0f;
+  --sable-warn-container-hover: #3a2713;
+  --sable-warn-container-active: #462f17;
+  --sable-warn-container-line: #5c3e1f;
+  --sable-warn-on-container: #f3e2d1;
+  /* Critical */
+  --sable-crit-main: #e69d9d;
+  --sable-crit-main-hover: #e28d8d;
+  --sable-crit-main-active: #e08585;
+  --sable-crit-main-line: #de7d7d;
+  --sable-crit-on-main: #000000;
+  --sable-crit-container: #2e1414;
+  --sable-crit-container-hover: #3a1919;
+  --sable-crit-container-active: #461e1e;
+  --sable-crit-container-line: #5c2828;
+  --sable-crit-on-container: #f5d6d6;
+  /* Other */
+  --sable-focus-ring: rgba(255, 255, 255, 0.45);
+  --sable-shadow: rgba(0, 0, 0, 0.8);
+  --sable-overlay: rgba(0, 0, 0, 0.85);
+  /* Extra */
+  --pb-message-hover: #141414;
+  --pb-reaction-hover: #101010;
+  --pb-reaction-pressed-hover: #2a2a2a;
+  --pb-switcher: #141414;
+  --pb-switcher-line: #262626;
+}
+
+/* Pronouns */
+body.sable-remote-theme .pronoun-pill {
+  box-shadow: inset 0 0 0 1px currentColor;
+}
+
+/* Message Hover */
+body.sable-remote-theme article.message:hover,
+body.sable-remote-theme article.message.menu-open {
+  background-color: var(--pb-message-hover);
+}
+
+/* Reactions */
+body.sable-remote-theme .reactions .reaction:hover:not(:disabled, [aria-pressed='true']) {
+  background: var(--pb-reaction-hover);
+}
+
+body.sable-remote-theme .reactions .reaction[aria-pressed='true']:hover:not(:disabled) {
+  background: var(--pb-reaction-pressed-hover);
+}
+
+/* Quick Reactions */
+body.sable-remote-theme .quick-reaction {
+  background: var(--sable-sec-container);
+}
+
+body.sable-remote-theme .quick-reaction:hover {
+  background: var(--sable-sec-container-hover);
+}
+
+/* Settings Switcher */
+body.sable-remote-theme .switcher {
+  background: var(--pb-switcher);
+  box-shadow: inset 0 0 0 1px var(--pb-switcher-line);
+}
+
+body.sable-remote-theme .switcher-thumb {
+  background: var(--sable-primary-main);
+}
+
+body.sable-remote-theme .switcher-option:has(input:checked) {
+  color: var(--sable-primary-on-main);
+}
